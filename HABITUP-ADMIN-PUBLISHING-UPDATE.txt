@@ -1,0 +1,9 @@
+RAVENSHAW IKS / HABITUP UPDATE
+
+The earlier HabitUp Publishing Centre has been retired:
+- The HabitUp Publishing item is no longer shown in the admin navigation.
+- The HabitUp publishing form and frontend action have been removed.
+- The admin-only HabitUp category publishing API has been removed.
+- Existing HabitUp categories and previously published learning resources remain available for reading.
+
+Current HabitUp navigation: Home, Category and Profile.

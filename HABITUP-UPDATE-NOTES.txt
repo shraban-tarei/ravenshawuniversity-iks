@@ -1,0 +1,24 @@
+RAVENSHAW IKS / HABITUP UPDATE
+
+Changes in this archive:
+1. Fixed the responsive logout visibility issue: the hidden dashboard is now forced to display:none, so the dashboard search and message controls disappear after sign-out on mobile as well as desktop.
+2. HabitUp home now shows its Odia introduction and does not show category cards.
+3. Added a separate HabitUp Categories page with 15 photographic category cards.
+4. Each category opens a photo banner and an Odia explanation. Each explanation combines its category-specific introduction with a shared 353-word Odia learning/safety guide, so the combined text is over 400 whitespace-separated words per category.
+5. Added safety notes for wellness topics. The content is educational and does not claim to replace professional healthcare.
+
+Install:
+- Back up your current project folder.
+- Extract this archive over your existing project, allowing public/app.js and public/styles.css to be replaced.
+- Keep your existing .env file. This archive intentionally does not contain .env or node_modules.
+- No database migration is required for these UI/content changes.
+- In the project folder run: npm install
+- Then run: npm start
+
+Category card and banner photos use Unsplash image URLs and therefore require an internet connection in the visitor's browser.
+
+LATEST NAVIGATION CLEANUP (2026-11-13)
+- Removed the public "Meet HabitUp" guide and alumni spotlight sections from the IKS homepage.
+- Kept the HabitUp top search field, search action, and message shortcut visible while in HabitUp.
+- Search and Messages opened from HabitUp remain within the HabitUp workspace and retain its bottom navigation.
+- Signing out removes the HabitUp bottom navigation, private dashboard navigation, search, and message controls from the signed-out view.

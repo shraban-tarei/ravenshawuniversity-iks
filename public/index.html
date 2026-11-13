@@ -1,677 +1,384 @@
 
 <!DOCTYPE html>
-<html lang="en">
+
+<html lang="or">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <meta name="theme-color" content="#102b46">
-    <meta name="description" content="Ravenshaw University Indian Knowledge System portal">
-
-    <title>Ravenshaw University | Indian Knowledge System</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-
-    <link
-        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
-        rel="stylesheet">
-
-    <link rel="stylesheet" href="/styles.css">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="#102b46" name="theme-color"/>
+<meta content="Ravenshaw University Indian Knowledge System portal" name="description"/>
+<title>Ravenshaw University | Indian Knowledge System</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Playfair+Display:wght@500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="/styles.css" rel="stylesheet"/>
 </head>
-
 <body>
-
-    <!-- UNIVERSITY TOP BAR -->
-    <div class="top">
-        RAVENSHAW UNIVERSITY · CUTTACK, ODISHA
+<!-- UNIVERSITY TOP BAR -->
+<div class="top">
+        ରେଭେନ୍ସା ବିଶ୍ୱବିଦ୍ୟାଳୟ · କଟକ, ଓଡ଼ିଶା
         <span>ज्ञानमेव शक्तिः · KNOWLEDGE IS POWER</span>
-    </div>
-
-    <!-- MAIN NAVIGATION -->
-    <header>
-
-        <a class="brand" href="#">
-            <img
-                src="/assets/ravenshaw-emblem.png"
-                alt="Ravenshaw emblem">
-
-            <span class="brand-name">
-                RAVENSHAW UNIVERSITY
-                <small>INDIAN KNOWLEDGE SYSTEM · IKS</small>
-            </span>
-        </a>
-
-        <nav>
-            <a href="#about">About IKS</a>
-            <a href="#history">History</a>
-            <a href="#campus">Campus</a>
-            <a href="#people">People</a>
-        </nav>
-
-        <div class="auth-actions">
-
-            <button
-                class="navbtn"
-                id="openLogin"
-                type="button">
-                Login
-            </button>
-
-            <button
-                class="createbtn"
-                id="openRegister"
-                type="button">
-                Create Account
-            </button>
-
-        </div>
-
-        <button
-            class="menu"
-            id="menuToggle"
-            type="button"
-            aria-label="Toggle navigation">
+</div>
+<!-- MAIN NAVIGATION -->
+<header>
+<a class="brand" href="#">
+<img alt="Ravenshaw emblem" src="/assets/ravenshaw-emblem.png"/>
+<span class="brand-name">
+                ରେଭେନ୍ସା ବିଶ୍ୱବିଦ୍ୟାଳୟ
+                <small>ଭାରତୀୟ ଜ୍ଞାନ ପ୍ରଣାଳୀ · କଟକ</small>
+</span>
+<span aria-label="Indian Knowledge Systems" class="iks-mark">IKS</span>
+</a>
+<nav>
+<a href="#about">About IKS</a>
+<a href="#history">History</a>
+<a href="#campus">Campus</a>
+<a href="#categories">IKS Categories</a>
+</nav>
+<div class="auth-actions">
+<button class="navbtn" id="openLogin" type="button">Login</button>
+<button class="createbtn" id="openRegister" type="button">Create Account</button>
+</div>
+<button aria-label="Toggle navigation" class="menu" id="menuToggle" type="button">
             ☰
         </button>
-
-    </header>
-
-    <main>
-
-        <!-- HERO SECTION -->
-        <section class="hero">
-
-            <div>
-                <small class="kicker">
-                    A LEGACY OF LEARNING · EST. 1868
-                </small>
-
-                <h1>
-                    Where heritage<br>
-                    meets <em>tomorrow.</em>
-                </h1>
-
-                <p>
-                    An academic home for India's timeless knowledge
-                    traditions, new ideas and the next generation
-                    of Ravenshawians.
+</header>
+<main>
+<!-- HERO SECTION -->
+<section class="hero">
+<div>
+<small class="kicker">A LEGACY OF LEARNING · EST. 1868</small>
+<h1 class="hero-editorial-title">
+                    ଜ୍ଞାନର ଆଲୋକ<br/>
+<em>ଐତିହ୍ୟରୁ ନବଚେତନା</em>
+</h1>
+<p>
+                    ଓଡ଼ିଶାର ଗୌରବମୟ ଇତିହାସ, ଜ୍ଞାନ, ସାହିତ୍ୟ, କଳା ଓ ସଂସ୍କୃତିର ଏକ ଜୀବନ୍ତ ଶିକ୍ଷାକେନ୍ଦ୍ର। ଐତିହ୍ୟର ମୂଳକୁ ଧରି ଆଧୁନିକ ଜ୍ଞାନର ନୂତନ ଦିଗକୁ ଅଗ୍ରସର ହେଉଥିବା ରେଭେନ୍ସା।
                 </p>
-
-                <a class="gold hero-link" href="#about">
-                    Explore IKS ↗
-                </a>
-
-                <a class="plain" href="#about">
-                    Discover our vision ↓
-                </a>
-
-                <div class="stats">
-
-                    <b>
-                        1868
-                        <small>Institution founded</small>
-                    </b>
-
-                    <b>
-                        2006
-                        <small>University status</small>
-                    </b>
-
-                    <b>
-                        IKS
-                        <small>Knowledge traditions</small>
-                    </b>
-
-                </div>
-            </div>
-
-            <div class="heroimg">
-
-                <img
-                    src="/assets/campus-main.jpg"
-                    alt="Ravenshaw campus">
-
-                <div class="caption">
-                    THE RED BRICK LEGACY<br>
-                    <b>Ravenshaw · Cuttack</b>
-                </div>
-
-                <div class="seal">
-                    <img
-                        src="/assets/ravenshaw-emblem.png"
-                        alt="University emblem">
-
+<a class="gold hero-link" href="#about">Explore IKS ↗</a>
+<a class="plain" href="#about">Discover our vision ↓</a>
+<div class="stats">
+<b>1868<small>Institution founded</small></b>
+<b>2006<small>University status</small></b>
+<b>IKS<small>Knowledge traditions</small></b>
+</div>
+</div>
+<div class="heroimg">
+<img alt="Ravenshaw campus" src="/assets/campus-main.jpg"/>
+<div class="caption">
+                    ଲାଲ୍ ଇଟାର ଗୌରବ<br/>
+<b>ରେଭେନ୍ସା · କଟକ</b>
+</div>
+<div class="seal">
+<img alt="University emblem" src="/assets/ravenshaw-emblem.png"/>
                     JÑĀNAMEVA ŚAKTIḤ
                 </div>
-
-            </div>
-
-        </section>
-
-        <!-- ABOUT IKS -->
-        <section class="wrap" id="about">
-
-            <small class="kicker">
-                01 / THE KNOWLEDGE TRADITION
-            </small>
-
-            <div class="twocol">
-
-                <h2>
-                    Rooted in wisdom.<br>
-                    <em>Open to the world.</em>
-                </h2>
-
-                <div>
-
-                    <p>
-                        Indian Knowledge Systems (IKS) bring together
-                        the intellectual, scientific, artistic and
-                        philosophical traditions that have evolved
-                        across the Indian subcontinent. From
-                        mathematics, astronomy, medicine and ecology
-                        to language, literature, architecture, music
-                        and ethical thought, these traditions invite
-                        us to study knowledge in context and connect
-                        inherited insight with contemporary inquiry.
+</div>
+</section>
+<!-- UNIVERSITY CAMPUS SLIDESHOW -->
+<section aria-label="Ravenshaw University campus photographs" class="source-slideshow">
+<div class="slide-heading">
+<small class="kicker">ରେଭେନ୍ସା ବିଶ୍ୱବିଦ୍ୟାଳୟ · କ୍ୟାମ୍ପସ୍</small>
+<h2>ଆମ କ୍ୟାମ୍ପସ୍, <em>ଆମ ଐତିହ୍ୟ।</em></h2>
+</div>
+<div class="slide-frame">
+<img alt="Ravenshaw University campus" id="homeSlide" loading="eager" src="/assets/campus-main.jpg"/>
+<div class="slide-caption" id="slideCaption">
+                    ରେଭେନ୍ସା ବିଶ୍ୱବିଦ୍ୟାଳୟ · କଟକ
+                </div>
+<div class="slide-controls">
+<button aria-label="Previous photograph" id="slidePrev" type="button">‹</button>
+<span id="slideCount">01 / 12</span>
+<button aria-label="Next photograph" id="slideNext" type="button">›</button>
+</div>
+</div>
+<p class="slide-note">
+                ରେଭେନ୍ସା ବିଶ୍ୱବିଦ୍ୟାଳୟର ନିଜସ୍ୱ ଭବନ, ପାଠାଗାର, ଉଦ୍ୟାନ ଓ ଛାତ୍ରଜୀବନର ଝଲକ।
+            </p>
+</section>
+<!-- IKS IN ODIA AND ENGLISH -->
+<section class="iks-trad wrap" id="iks-programme">
+<small class="kicker">BHARATIYA JNANA PARAMPARA · ଭାରତୀୟ ଜ୍ଞାନ ପରମ୍ପରା</small>
+<div class="twocol">
+<h2>
+                    Indian Knowledge System<br/>
+<em>ଭାରତୀୟ ଜ୍ଞାନ ପ୍ରଣାଳୀ</em>
+</h2>
+<div>
+<h3>History of IKS</h3>
+<p>
+                        Indian Knowledge Systems are the accumulated traditions of inquiry,
+                        learning and practice developed across the Indian subcontinent over
+                        many centuries. They include philosophical schools, mathematics,
+                        astronomy, medicine, agriculture, ecology, metallurgy, architecture,
+                        language, literature, music, yoga and systems of community knowledge.
+                        These traditions were transmitted through oral teaching, manuscripts,
+                        institutions, crafts and lived practice. Studying their history means
+                        understanding their contexts, methods, debates and continuing
+                        relevance—not treating the past as unchanging or separating it from
+                        critical research.
                     </p>
-
-                    <p>
-                        This portal celebrates a living conversation
-                        between classical learning and modern
-                        education—encouraging students to question,
-                        document, preserve and apply knowledge with
-                        curiosity, evidence and responsibility.
+<h3>ଭାରତୀୟ ଜ୍ଞାନ ପରମ୍ପରା</h3>
+<p lang="or">
+                        ଭାରତୀୟ ଜ୍ଞାନ ପରମ୍ପରା ହେଉଛି ଅନେକ ଶତାବ୍ଦୀ ଧରି ବିକଶିତ ହୋଇଥିବା
+                        ଜ୍ଞାନ, ଚିନ୍ତନ ଓ ଅଭ୍ୟାସର ଏକ ସମୃଦ୍ଧ ଧାରା। ଏଥିରେ ଦର୍ଶନ, ଗଣିତ,
+                        ଜ୍ୟୋତିଷ ଓ ଖଗୋଳ ଅଧ୍ୟୟନ, ଆୟୁର୍ବେଦ, କୃଷି, ପରିବେଶ, ସ୍ଥାପତ୍ୟ,
+                        ଭାଷା, ସାହିତ୍ୟ, ସଙ୍ଗୀତ ଓ ଯୋଗ ଆଦି ସମ୍ମିଳିତ। ଏହି ପରମ୍ପରାଗୁଡ଼ିକୁ
+                        ମୌଖିକ ଶିକ୍ଷା, ପାଣ୍ଡୁଲିପି, ଶିକ୍ଷାନୁଷ୍ଠାନ, କଳାକୌଶଳ ଓ ଦୈନନ୍ଦିନ
+                        ଜୀବନ ମାଧ୍ୟମରେ ପିଢ଼ିରୁ ପିଢ଼ିକୁ ପହଞ୍ଚାଯାଇଛି।
                     </p>
-
-                    <blockquote>
+<h3>Ravenshaw University and IKS · ରେଭେନ୍ସା ବିଶ୍ୱବିଦ୍ୟାଳୟ ଓ ଆଇକେଏସ୍</h3>
+<p>
+                        At Ravenshaw University, the IKS programme can create an academic
+                        space where students explore Odisha's intellectual and cultural
+                        heritage alongside wider Indian knowledge traditions through lectures,
+                        seminars, documentation, field engagement and interdisciplinary projects.
+                    </p>
+<p lang="or">
+                        ରେଭେନ୍ସା ବିଶ୍ୱବିଦ୍ୟାଳୟରେ ଆଇକେଏସ୍ କାର୍ଯ୍ୟକ୍ରମ ମାଧ୍ୟମରେ
+                        ଛାତ୍ରଛାତ୍ରୀମାନେ ଓଡ଼ିଶାର ବୌଦ୍ଧିକ ଓ ସାଂସ୍କୃତିକ ଐତିହ୍ୟ ସହିତ
+                        ଭାରତର ବିଭିନ୍ନ ଜ୍ଞାନ ପରମ୍ପରାକୁ ଅଧ୍ୟୟନ କରିପାରିବେ।
+                        ବକ୍ତୃତା, ଆଲୋଚନାଚକ୍ର, ଦଲିଲୀକରଣ, କ୍ଷେତ୍ର ଅଧ୍ୟୟନ ଓ
+                        ବହୁବିଷୟକ ପ୍ରକଳ୍ପ ଏହି ଶିକ୍ଷାକୁ ସମୃଦ୍ଧ କରିପାରିବ।
+                    </p>
+<div class="iks-exam-highlight">
+                        ✦ INDIAN KNOWLEDGE SYSTEM (IKS) EXAMINATION ✦
+                    </div>
+</div>
+</div>
+</section>
+<!-- ABOUT IKS -->
+<section class="wrap" id="about">
+<small class="kicker">01 / THE KNOWLEDGE TRADITION</small>
+<div class="twocol">
+<h2>
+                    Rooted in wisdom.<br/>
+<em>Open to the world.</em>
+</h2>
+<div>
+<p>
+                        Indian Knowledge Systems (IKS) bring together the intellectual,
+                        scientific, artistic and philosophical traditions that have evolved
+                        across the Indian subcontinent. From mathematics, astronomy, medicine
+                        and ecology to language, literature, architecture, music and ethical
+                        thought, these traditions invite us to study knowledge in context and
+                        connect inherited insight with contemporary inquiry.
+                    </p>
+<p>
+                        This portal celebrates a living conversation between classical
+                        learning and modern education—encouraging students to question,
+                        document, preserve and apply knowledge with curiosity, evidence
+                        and responsibility.
+                    </p>
+<blockquote>
                         “Jñānameva śaktiḥ”
                         <small>Knowledge itself is power.</small>
-                    </blockquote>
+</blockquote>
+<div class="odia-study-quote" lang="or"><span>ସନ୍ଥକବି ଭୀମ ଭୋଇଙ୍କ ଅମର ବାଣୀ</span><p>“ମୋ ଜୀବନ ପଛେ ନର୍କେ ପଡ଼ିଥାଉ, ଜଗତ ଉଦ୍ଧାର ହେଉ।”</p><small><b>ଅର୍ଥ:</b> ନିଜ ସ୍ୱାର୍ଥଠାରୁ ସମାଜର ମଙ୍ଗଳ ବଡ଼। ଅଧ୍ୟୟନ ଆମକୁ ଜ୍ଞାନ ଦିଏ, କର୍ମ ସେହି ଜ୍ଞାନକୁ ଜୀବନରେ ପ୍ରୟୋଗ କରେ, ଏବଂ ଧର୍ମର ସାର ହେଉଛି କରୁଣା, ସତ୍ୟନିଷ୍ଠା ଓ ପରୋପକାର।</small></div>
+<img alt="Indian Knowledge Systems awareness artwork" class="iks-art" src="/assets/iks-reference.jpg"/>
+</div>
+</div>
+</section>
+<!-- ODISHA'S PEOPLE, POETS AND LITERARY HERITAGE -->
+<section class="odisha-heritage" id="odisha-heritage">
+<div class="wrap">
+<small class="kicker">ଓଡ଼ିଶାର ମାଟି · ମଣିଷ · ମନୀଷା</small>
+<div class="heading"><h2>ମହାନ ଓଡ଼ିଆ ମନୀଷୀ <em>ଓ ସାହିତ୍ୟର ସୁଗନ୍ଧ</em></h2><p lang="or">ଯେଉଁମାନଙ୍କ ଚିନ୍ତା, ସାହସ, ସୃଜନଶୀଳତା ଓ ସେବା ଓଡ଼ିଶାର ପରିଚୟକୁ ଗଢ଼ିଛି—ସେମାନଙ୍କ ଜୀବନ ଓ କୃତିକୁ ଜାଣିବାର ଏକ ନମ୍ର ପ୍ରୟାସ।</p></div>
+<div class="people-grid">
+<article class="person-card"><figure class="person-photo"><img loading="lazy" alt="ପଣ୍ଡିତ ଗୋପବନ୍ଧୁ ଦାସ" src="https://upload.wikimedia.org/wikipedia/commons/5/5a/Gopabandhu_Das_portrait.jpg"/><figcaption>ଐତିହାସିକ ଫଟୋ · <a href="https://commons.wikimedia.org/wiki/File:Gopabandhu_Das_portrait.jpg" target="_blank" rel="noopener noreferrer">ଚିତ୍ର ଉତ୍ସ</a></figcaption></figure><div class="person-copy"><span>ଉତ୍କଳମଣି · ସମାଜସେବୀ · କବି</span><h3>ପଣ୍ଡିତ ଗୋପବନ୍ଧୁ ଦାସ</h3><p lang="or">ପଣ୍ଡିତ ଗୋପବନ୍ଧୁ ଦାସ ଓଡ଼ିଶାର ଆଧୁନିକ ଜାଗରଣ, ଜାତୀୟ ଚେତନା ଓ ମାନବସେବାର ଏକ ଅମର ପ୍ରତୀକ। ୧୮୭୭ ମସିହାରେ ପୁରୀ ଜିଲ୍ଲାର ସୁଆଣ୍ଡୋ ଗ୍ରାମରେ ଜନ୍ମଗ୍ରହଣ କରିଥିବା ଗୋପବନ୍ଧୁଙ୍କ ଜୀବନରେ ଶିକ୍ଷା, ସମାଜସେବା ଓ ଦେଶପ୍ରେମ ଏକାଠି ମିଶିଥିଲା। ଶୈଶବରୁ ସେ ଦାରିଦ୍ର୍ୟ, ଅସମାନତା ଓ ଅଶିକ୍ଷାର ଯନ୍ତ୍ରଣାକୁ ନିକଟରୁ ଦେଖିଥିଲେ। ତେଣୁ ଶିକ୍ଷାକୁ ସେ କେବଳ ଚାକିରି ପାଇବାର ମାଧ୍ୟମ ଭାବେ ନୁହେଁ, ମଣିଷ ଗଢ଼ିବାର ଶକ୍ତି ଭାବେ ଗ୍ରହଣ କରିଥିଲେ। ସତ୍ୟବାଦୀ ବନବିଦ୍ୟାଳୟ ସ୍ଥାପନାରେ ତାଙ୍କ ଭୂମିକା ଓଡ଼ିଶାର ଶିକ୍ଷା ଇତିହାସରେ ଏକ ନୂତନ ଅଧ୍ୟାୟ ଖୋଲିଥିଲା। ଗଛତଳେ ଶିକ୍ଷା, ପ୍ରକୃତି ସହ ସମ୍ପର୍କ, ଚରିତ୍ର ଗଠନ ଓ ସାମାଜିକ ଦାୟିତ୍ୱକୁ ସେ ଶିକ୍ଷାର ଅଂଶ କରିଥିଲେ। ସେ ‘ସମାଜ’ ଖବରକାଗଜ ମାଧ୍ୟମରେ ଜନସାଧାରଣଙ୍କ ସମସ୍ୟାକୁ ସ୍ୱର ଦେଇଥିଲେ ଏବଂ ଓଡ଼ିଆ ଭାଷାଭାଷୀ ଅଞ୍ଚଳର ଏକତା ପାଇଁ ଲଢ଼ିଥିଲେ। ବନ୍ୟା, ଦୁର୍ଭିକ୍ଷ ଓ ମହାମାରୀ ସମୟରେ ନିଜ ସୁଖକୁ ଭୁଲି ସେ ଲୋକଙ୍କ ସେବାରେ ନିୟୋଜିତ ହୋଇଥିଲେ। ତାଙ୍କ କବିତା ଓ ଗଦ୍ୟରେ ଦେଶପ୍ରେମ, ତ୍ୟାଗ, ମାନବତା ଓ ନୈତିକତାର ଗଭୀର ସ୍ୱର ଶୁଣିବାକୁ ମିଳେ। ‘ବନ୍ଦୀର ଆତ୍ମକଥା’ ଓ ‘ଅବକାଶ ଚିନ୍ତା’ ତାଙ୍କ ସାହିତ୍ୟିକ ମନୋଭାବର ଉଦାହରଣ। ଗୋପବନ୍ଧୁଙ୍କ ଜୀବନ ଆମକୁ ଶିଖାଏ ଯେ ଜ୍ଞାନର ସର୍ବୋଚ୍ଚ ଲକ୍ଷ୍ୟ ହେଉଛି ମଣିଷର ଦୁଃଖ ହ୍ରାସ କରିବା ଓ ସମାଜକୁ ଉନ୍ନତ କରିବା। ତାଙ୍କ ଚିନ୍ତାଧାରାରେ ଦେଶସେବା ଓ ମାନବସେବା ପରସ୍ପରରୁ ଅଲଗା ନଥିଲା। ସେ ଛାତ୍ରମାନଙ୍କୁ ଶୃଙ୍ଖଳା, ସହଯୋଗ, ସତ୍ୟନିଷ୍ଠା ଓ ସାଧାରଣ ଲୋକଙ୍କ ସହ ଜୀବନ ବାଣ୍ଟିବାର ଶିକ୍ଷା ଦେଇଥିଲେ। ସତ୍ୟବାଦୀ ଆନ୍ଦୋଳନ ଓଡ଼ିଆ ସମାଜରେ ନୂତନ ଆତ୍ମବିଶ୍ୱାସ ସୃଷ୍ଟି କରିଥିଲା। ଆଜିର ଶିକ୍ଷାର୍ଥୀଙ୍କ ପାଇଁ ତାଙ୍କ ଜୀବନର ମୂଳ ବାର୍ତ୍ତା ହେଉଛି—ନିଜର ଉନ୍ନତି ସହ ସମାଜର ଉନ୍ନତିକୁ ମଧ୍ୟ ସମାନ ଗୁରୁତ୍ୱ ଦେବା। ତାଙ୍କ ସ୍ମୃତି ଓଡ଼ିଶାର ସାମୂହିକ ଚେତନାରେ ଆଜି ମଧ୍ୟ ଜୀବନ୍ତ। ଏହି ମନୀଷୀଙ୍କ କୃତି ଓ କାର୍ଯ୍ୟକୁ ଆଜିର ପିଢ଼ି ନୂତନ ପ୍ରଶ୍ନ ସହ ପଢ଼ିବା ଆବଶ୍ୟକ। ତାଙ୍କ ସମୟର ସାମାଜିକ ପରିସ୍ଥିତି, ଭାଷାର ବିକାଶ ଓ ଐତିହାସିକ ପରିବର୍ତ୍ତନକୁ ବୁଝିଲେ ତାଙ୍କ ଅବଦାନର ଗଭୀରତା ଅଧିକ ସ୍ପଷ୍ଟ ହୁଏ। ରେଭେନ୍ସାର ଅଧ୍ୟୟନ ପରିବେଶରେ ଏପରି ଜୀବନୀ ଆଲୋଚନା ଗବେଷଣା, ପାଠନ ଓ ସୃଜନଶୀଳ ଚିନ୍ତାକୁ ପ୍ରେରଣା ଦେଇପାରେ।</p></div></article>
+<article class="person-card"><figure class="person-photo"><img loading="lazy" alt="ଫକୀରମୋହନ ସେନାପତି" src="https://upload.wikimedia.org/wikipedia/commons/9/98/Fakir_Mohan_Senapati.jpg"/><figcaption>ଐତିହାସିକ ଫଟୋ · <a href="https://commons.wikimedia.org/wiki/File:Fakir_Mohan_Senapati.jpg" target="_blank" rel="noopener noreferrer">ଚିତ୍ର ଉତ୍ସ</a></figcaption></figure><div class="person-copy"><span>ବ୍ୟାସକବି · ଆଧୁନିକ ଓଡ଼ିଆ ଗଳ୍ପର ଜନକ</span><h3>ଫକୀରମୋହନ ସେନାପତି</h3><p lang="or">ଫକୀରମୋହନ ସେନାପତି ଓଡ଼ିଆ ଭାଷା ଓ ସାହିତ୍ୟର ଇତିହାସରେ ଏକ ଅସାଧାରଣ ସୃଷ୍ଟିକର୍ତ୍ତା। ୧୮୪୩ ମସିହାରେ ବାଲେଶ୍ୱରରେ ଜନ୍ମିତ ଫକୀରମୋହନ ଅଳ୍ପ ବୟସରୁ ଜୀବନର କଠିନତା ସହ ସଂଘର୍ଷ କରିଥିଲେ। ଦାରିଦ୍ର୍ୟ ଓ ପାରିବାରିକ ଅସୁବିଧା ତାଙ୍କ ଶିକ୍ଷାର ପଥକୁ ସହଜ କରିନଥିଲା, କିନ୍ତୁ ନିଜ ଅଧ୍ୟବସାୟରେ ସେ ଓଡ଼ିଆ, ସଂସ୍କୃତ, ବଙ୍ଗଳା ଓ ଇଂରାଜୀ ସାହିତ୍ୟର ଜ୍ଞାନ ଅର୍ଜନ କରିଥିଲେ। ଓଡ଼ିଆ ଭାଷାକୁ ଶିକ୍ଷା ଓ ପ୍ରଶାସନରୁ ହଟାଇବାର ଚେଷ୍ଟା ହେଉଥିବା ସମୟରେ ସେ ମାତୃଭାଷାର ସୁରକ୍ଷା ପାଇଁ ଦୃଢ଼ ଭାବେ ଠିଆ ହୋଇଥିଲେ। ଅନୁବାଦ, ପାଠ୍ୟପୁସ୍ତକ ରଚନା ଓ ସାହିତ୍ୟ ସୃଷ୍ଟି ମାଧ୍ୟମରେ ଓଡ଼ିଆ ଭାଷାର ସ୍ୱତନ୍ତ୍ରତାକୁ ସେ ପ୍ରମାଣ କରିଥିଲେ। ‘ଛ ମାଣ ଆଠ ଗୁଣ୍ଠ’ ଉପନ୍ୟାସରେ ଜମିଦାରୀ ଶୋଷଣ, ସାମାଜିକ ଅନ୍ୟାୟ ଓ ଗ୍ରାମୀଣ ଜୀବନର ବାସ୍ତବ ଚିତ୍ର ଅଙ୍କନ କରିଥିଲେ। ‘ରେବତୀ’ ଗଳ୍ପରେ ନାରୀଶିକ୍ଷା, ସମାଜର ଅନ୍ଧବିଶ୍ୱାସ ଓ ମାନବୀୟ ସମ୍ବେଦନାକୁ ଅତ୍ୟନ୍ତ ସ୍ପର୍ଶକାତର ଭାବେ ଉପସ୍ଥାପନ କରିଥିଲେ। ତାଙ୍କ ଲେଖାରେ ହାସ୍ୟ, ବ୍ୟଙ୍ଗ, କରୁଣା ଓ ସାମାଜିକ ସମାଲୋଚନା ଏକାଠି ଦେଖାଯାଏ। ସେ କେବଳ ଗଳ୍ପକାର ନୁହେଁ; ଆତ୍ମଜୀବନୀକାର, କବି, ଅନୁବାଦକ ଓ ଭାଷାସଂଗ୍ରାମୀ ମଧ୍ୟ ଥିଲେ। ତାଙ୍କ ସାହିତ୍ୟ ଆଜି ମଧ୍ୟ ସାଧାରଣ ମଣିଷର ଜୀବନ, ସମାଜର ଗଠନ ଓ ନ୍ୟାୟର ଆବଶ୍ୟକତାକୁ ବୁଝିବାରେ ସାହାଯ୍ୟ କରେ। ତାଙ୍କ ରଚନାର ଆଉ ଏକ ବିଶେଷତା ହେଉଛି ସାଧାରଣ ଲୋକଙ୍କ କଥାକୁ ସାହିତ୍ୟର କେନ୍ଦ୍ରରେ ରଖିବା। ଚାଷୀ, ନାରୀ, ଗରିବ ପରିବାର, ଗ୍ରାମ୍ୟ କର୍ମଚାରୀ ଓ ସାମାଜିକ ଭାବେ ଅବହେଳିତ ଲୋକଙ୍କ ଅନୁଭବ ତାଙ୍କ ଲେଖାରେ ସ୍ଥାନ ପାଇଛି। ସେ ଚରିତ୍ରମାନଙ୍କୁ ଅତିରଞ୍ଜିତ ନକରି ସେମାନଙ୍କ ଦୁର୍ବଳତା, ଆଶା, ଭୟ ଓ ସଂଘର୍ଷକୁ ବାସ୍ତବ ଭାବେ ଚିତ୍ରଣ କରିଥିଲେ। ଏହି କାରଣରୁ ତାଙ୍କ ଗଳ୍ପ ଓ ଉପନ୍ୟାସ ଆଜି ମଧ୍ୟ ସମାଜବିଜ୍ଞାନ, ଇତିହାସ ଓ ସାହିତ୍ୟ ଅଧ୍ୟୟନ ପାଇଁ ମୂଲ୍ୟବାନ। ମାତୃଭାଷା ପ୍ରତି ତାଙ୍କ ନିଷ୍ଠା ନୂତନ ପିଢ଼ିକୁ ନିଜ ଭାଷାରେ ଚିନ୍ତା ଓ ସୃଜନ କରିବାକୁ ପ୍ରେରଣା ଦିଏ। ଏହି ମନୀଷୀଙ୍କ କୃତି ଓ କାର୍ଯ୍ୟକୁ ଆଜିର ପିଢ଼ି ନୂତନ ପ୍ରଶ୍ନ ସହ ପଢ଼ିବା ଆବଶ୍ୟକ। ତାଙ୍କ ସମୟର ସାମାଜିକ ପରିସ୍ଥିତି, ଭାଷାର ବିକାଶ ଓ ଐତିହାସିକ ପରିବର୍ତ୍ତନକୁ ବୁଝିଲେ ତାଙ୍କ ଅବଦାନର ଗଭୀରତା ଅଧିକ ସ୍ପଷ୍ଟ ହୁଏ। ରେଭେନ୍ସାର ଅଧ୍ୟୟନ ପରିବେଶରେ ଏପରି ଜୀବନୀ ଆଲୋଚନା ଗବେଷଣା, ପାଠନ ଓ ସୃଜନଶୀଳ ଚିନ୍ତାକୁ ପ୍ରେରଣା ଦେଇପାରେ।</p></div></article>
+<article class="person-card"><figure class="person-photo"><img loading="lazy" alt="ମଧୁସୂଦନ ଦାସ" src="https://commons.wikimedia.org/wiki/Special:FilePath/Madhusudan_Das.jpg"/><figcaption>ଐତିହାସିକ ଫଟୋ · <a href="https://commons.wikimedia.org/wiki/File:Madhusudan_Das.jpg" target="_blank" rel="noopener noreferrer">ଚିତ୍ର ଉତ୍ସ</a></figcaption></figure><div class="person-copy"><span>ଉତ୍କଳ ଗୌରବ · ଆଧୁନିକ ଓଡ଼ିଶାର ନିର୍ମାତା</span><h3>ମଧୁସୂଦନ ଦାସ</h3><p lang="or">ମଧୁସୂଦନ ଦାସ ଓଡ଼ିଶାର ରାଜନୈତିକ, ସାମାଜିକ ଓ ଆର୍ଥିକ ଜାଗରଣର ଅଗ୍ରଦୂତ ଭାବେ ସ୍ମରଣୀୟ। ୧୮୪୮ ମସିହାରେ କଟକ ଜିଲ୍ଲାର ସତ୍ୟଭାମାପୁରରେ ଜନ୍ମଗ୍ରହଣ କରିଥିବା ମଧୁସୂଦନ ଶିକ୍ଷାରେ ଅସାଧାରଣ ସଫଳତା ଲାଭ କରିଥିଲେ। ସେ କଲକାତାରେ ଉଚ୍ଚଶିକ୍ଷା ଗ୍ରହଣ କରି ଆଇନଜୀବୀ ହୋଇଥିଲେ ଏବଂ ଓଡ଼ିଶାର ପ୍ରଥମ ପିଢ଼ିର ଆଧୁନିକ ଶିକ୍ଷିତ ନେତାମାନଙ୍କ ମଧ୍ୟରେ ଅଗ୍ରଣୀ ଥିଲେ। ତାଙ୍କ ଜୀବନର ସବୁଠାରୁ ବଡ଼ ଲକ୍ଷ୍ୟ ଥିଲା ଓଡ଼ିଆ ଭାଷାଭାଷୀ ଲୋକଙ୍କୁ ଏକ ପ୍ରଶାସନିକ ଏକକରେ ଏକତ୍ର କରିବା। ସେ ବୁଝିଥିଲେ ଯେ ଭାଷା ଓ ସଂସ୍କୃତିର ଏକତା ବିନା ଲୋକଙ୍କ ଶିକ୍ଷା, ଅର୍ଥନୀତି ଓ ରାଜନୈତିକ ଅଧିକାର ସୁରକ୍ଷିତ ହୋଇପାରିବ ନାହିଁ। ଉତ୍କଳ ସମ୍ମିଳନୀ ଗଠନ ଓ ତାହାର କାର୍ଯ୍ୟକଳାପରେ ତାଙ୍କ ନେତୃତ୍ୱ ଓଡ଼ିଆ ଜାତୀୟତାବାଦକୁ ଶକ୍ତି ଦେଇଥିଲା। ସେ ଶିଳ୍ପ ଓ ହସ୍ତଶିଳ୍ପର ଉନ୍ନତି ପାଇଁ ମଧ୍ୟ ଚେଷ୍ଟା କରିଥିଲେ; ତାଙ୍କ ଚର୍ମଶିଳ୍ପ ସମ୍ବନ୍ଧୀୟ ପ୍ରୟାସ ଓଡ଼ିଶାରେ ସ୍ୱଦେଶୀ ଉଦ୍ୟମର ଉଦାହରଣ। ସେ ଜାତି, ଧର୍ମ ଓ ସାମାଜିକ ଭେଦଭାବକୁ ଅତିକ୍ରମ କରି ଓଡ଼ିଆ ସମାଜର ଏକତାର କଥା କହିଥିଲେ। ତାଙ୍କୁ ‘ଉତ୍କଳ ଗୌରବ’ ବୋଲି ସମ୍ମାନ କରାଯାଏ। ମଧୁସୂଦନଙ୍କ ଜୀବନ ରେଭେନ୍ସାର ଛାତ୍ରଛାତ୍ରୀଙ୍କୁ ଏହି ଶିକ୍ଷା ଦିଏ ଯେ ଉଚ୍ଚଶିକ୍ଷାର ମୂଲ୍ୟ ସମାଜ ପ୍ରତି ଦାୟିତ୍ୱ ଗ୍ରହଣ କଲେ ହିଁ ପୂର୍ଣ୍ଣ ହୁଏ। ମଧୁବାବୁଙ୍କ ଜୀବନରେ ଆତ୍ମସମ୍ମାନ, ଆଧୁନିକ ଶିକ୍ଷା ଓ ସଂଗଠନ ଶକ୍ତିର ଗଭୀର ମହତ୍ତ୍ୱ ଥିଲା। ସେ ଓଡ଼ିଆ ଲୋକଙ୍କ ଅଧିକାର ପାଇଁ ଆଇନ, ଯୁକ୍ତି, ଲେଖା ଓ ସାର୍ବଜନୀନ ସଭାକୁ ଏକାସାଥିରେ ବ୍ୟବହାର କରିଥିଲେ। ତାଙ୍କର ଭାଷଣ ଓ ଚିଠିପତ୍ରରେ ମାତୃଭୂମି ପ୍ରତି ଅନୁରାଗ ସହିତ ଦୂରଦୃଷ୍ଟି ଓ ବ୍ୟବହାରିକ ରାଜନୈତିକ ବୁଦ୍ଧି ଦେଖାଯାଏ। ସେ ନାରୀଶିକ୍ଷା ଓ ସାମାଜିକ ସଂସ୍କାରକୁ ମଧ୍ୟ ସମର୍ଥନ କରିଥିଲେ। ତାଙ୍କ ଅବଦାନ ଆମକୁ ମନେ ପକାଏ ଯେ ଏକ ଭାଷାଭିତ୍ତିକ ସମାଜର ଉନ୍ନତି ପାଇଁ ଶିକ୍ଷା, ଅର୍ଥନୀତି, ସଂସ୍କୃତି ଓ ରାଜନୈତିକ ସଚେତନତାର ସମନ୍ୱୟ ଆବଶ୍ୟକ। ଏହି ମନୀଷୀଙ୍କ କୃତି ଓ କାର୍ଯ୍ୟକୁ ଆଜିର ପିଢ଼ି ନୂତନ ପ୍ରଶ୍ନ ସହ ପଢ଼ିବା ଆବଶ୍ୟକ। ତାଙ୍କ ସମୟର ସାମାଜିକ ପରିସ୍ଥିତି, ଭାଷାର ବିକାଶ ଓ ଐତିହାସିକ ପରିବର୍ତ୍ତନକୁ ବୁଝିଲେ ତାଙ୍କ ଅବଦାନର ଗଭୀରତା ଅଧିକ ସ୍ପଷ୍ଟ ହୁଏ। ରେଭେନ୍ସାର ଅଧ୍ୟୟନ ପରିବେଶରେ ଏପରି ଜୀବନୀ ଆଲୋଚନା ଗବେଷଣା, ପାଠନ ଓ ସୃଜନଶୀଳ ଚିନ୍ତାକୁ ପ୍ରେରଣା ଦେଇପାରେ।</p></div></article>
+<article class="person-card"><figure class="person-photo"><img loading="lazy" alt="ଗଙ୍ଗାଧର ମେହେର" src="https://commons.wikimedia.org/wiki/Special:FilePath/Gangadhar_Meher.png"/><figcaption>କଳାତ୍ମକ ପ୍ରତିଚ୍ଛବି · ଫଟୋ ନୁହେଁ · <a href="https://commons.wikimedia.org/wiki/File:Gangadhar_Meher.png" target="_blank" rel="noopener noreferrer">ଚିତ୍ର ଉତ୍ସ</a></figcaption></figure><div class="person-copy"><span>ସ୍ୱଭାବକବି · ପ୍ରକୃତିର କବି</span><h3>ଗଙ୍ଗାଧର ମେହେର</h3><p lang="or">ଗଙ୍ଗାଧର ମେହେର ଓଡ଼ିଆ କବିତାରେ ପ୍ରକୃତି, ପ୍ରେମ, ମାନବତା ଓ ନୈତିକ ଚିନ୍ତନର ଅନନ୍ୟ କବି। ୧୮୬୨ ମସିହାରେ ସମ୍ବଲପୁର ଅଞ୍ଚଳର ବରପାଲିରେ ଏକ ବୁଣାକାର ପରିବାରରେ ତାଙ୍କ ଜନ୍ମ ହୋଇଥିଲା। ଆର୍ଥିକ ସମସ୍ୟା ଯୋଗୁଁ ତାଙ୍କର ଔପଚାରିକ ଶିକ୍ଷା ଅଧିକ ଦୂର ଯାଇପାରିନଥିଲା, କିନ୍ତୁ ସ୍ୱାଧ୍ୟାୟ, ପର୍ଯ୍ୟବେକ୍ଷଣ ଓ ସୃଜନଶୀଳ ଶକ୍ତି ତାଙ୍କୁ ଓଡ଼ିଆ ସାହିତ୍ୟର ଶିଖରକୁ ନେଇଥିଲା। ସେ ପ୍ରକୃତିକୁ କେବଳ ଦୃଶ୍ୟରୂପେ ନୁହେଁ, ମଣିଷର ଭାବନା ଓ ଜୀବନର ସହଚର ଭାବେ ଦେଖିଥିଲେ। ତାଙ୍କ କବିତାରେ ନଦୀ, ପର୍ବତ, ଋତୁ, ଫୁଲ, ପକ୍ଷୀ ଓ ଗ୍ରାମ୍ୟ ପରିବେଶ ସଜୀବ ହୋଇଉଠେ। ‘ତପସ୍ୱିନୀ’ ତାଙ୍କର ଏକ ପ୍ରସିଦ୍ଧ କାବ୍ୟ, ଯେଉଁଥିରେ ସୀତାଙ୍କ ଚରିତ୍ର, ତ୍ୟାଗ ଓ ଆତ୍ମସମ୍ମାନକୁ ନୂତନ ଭାବରେ ଅନୁଭବ କରାଯାଏ। ‘ପ୍ରଣୟବଲ୍ଲରୀ’, ‘କୀଚକବଧ’, ‘ଇନ୍ଦୁମତୀ’ ଓ ‘ଉତ୍କଳଲକ୍ଷ୍ମୀ’ ଆଦି କୃତି ତାଙ୍କ ସାହିତ୍ୟିକ ପ୍ରତିଭାର ପରିଚୟ ଦିଏ। ସେ ଲୋକଜୀବନର ସରଳତା, ଶ୍ରମର ମର୍ଯ୍ୟାଦା ଓ ମାନବୀୟ ସମ୍ପର୍କର ମୂଲ୍ୟକୁ ଗଭୀର ସମ୍ମାନ ଦେଇଥିଲେ। ତାଙ୍କ ଭାଷାରେ ସଂସ୍କୃତ ପାଣ୍ଡିତ୍ୟ ଓ ଲୋକଭାଷାର ମାଧୁର୍ଯ୍ୟର ସୁନ୍ଦର ସମନ୍ୱୟ ଦେଖାଯାଏ। ଗଙ୍ଗାଧରଙ୍କ କବିତା ଓଡ଼ିଶାର ପ୍ରକୃତି ସୌନ୍ଦର୍ଯ୍ୟକୁ ଶବ୍ଦରେ ଅମର କରିଛି ଏବଂ ପରିବେଶ ସହ ମଣିଷର ଆତ୍ମୀୟ ସମ୍ପର୍କକୁ ସ୍ମରଣ କରାଏ। ଗଙ୍ଗାଧରଙ୍କ କବିତାରେ ମାନବଜୀବନର ସୁଖଦୁଃଖ ଓ ପ୍ରକୃତିର ନିରବ ସୌନ୍ଦର୍ଯ୍ୟ ଏକାଠି ହୋଇଥାଏ। ସେ ଶ୍ରମଜୀବୀ ମଣିଷର ଜୀବନକୁ ଅବହେଳା କରିନଥିଲେ; ନିଜ ପରିବାରିକ ଓ ସାମାଜିକ ପୃଷ୍ଠଭୂମି ତାଙ୍କୁ ସାଧାରଣ ଲୋକଙ୍କ ଅନୁଭୂତି ସହ ଯୋଡ଼ି ରଖିଥିଲା। ତାଙ୍କ କାବ୍ୟରେ ନାରୀଚରିତ୍ରର ମର୍ଯ୍ୟାଦା, ପ୍ରେମର ପବିତ୍ରତା ଓ ଧର୍ମର ମାନବୀୟ ଅର୍ଥକୁ ଅନୁଭବ କରିହୁଏ। ତାଙ୍କ ରଚନା ଓଡ଼ିଆ ଭାଷାର ମାଧୁର୍ଯ୍ୟ ଓ ଛନ୍ଦର ସମ୍ଭାବନାକୁ ଆଗକୁ ନେଇଥିଲା। ଆଜିର ପାଠକ ତାଙ୍କ କବିତାରୁ ପ୍ରକୃତି ସୁରକ୍ଷା, ସରଳ ଜୀବନ ଓ ମାନବିକତାର ମୂଲ୍ୟ ଶିଖିପାରନ୍ତି। ଏହି ମନୀଷୀଙ୍କ କୃତି ଓ କାର୍ଯ୍ୟକୁ ଆଜିର ପିଢ଼ି ନୂତନ ପ୍ରଶ୍ନ ସହ ପଢ଼ିବା ଆବଶ୍ୟକ। ତାଙ୍କ ସମୟର ସାମାଜିକ ପରିସ୍ଥିତି, ଭାଷାର ବିକାଶ ଓ ଐତିହାସିକ ପରିବର୍ତ୍ତନକୁ ବୁଝିଲେ ତାଙ୍କ ଅବଦାନର ଗଭୀରତା ଅଧିକ ସ୍ପଷ୍ଟ ହୁଏ। ରେଭେନ୍ସାର ଅଧ୍ୟୟନ ପରିବେଶରେ ଏପରି ଜୀବନୀ ଆଲୋଚନା ଗବେଷଣା, ପାଠନ ଓ ସୃଜନଶୀଳ ଚିନ୍ତାକୁ ପ୍ରେରଣା ଦେଇପାରେ।</p></div></article>
+<article class="person-card"><figure class="person-photo"><img loading="lazy" alt="ରାଧାନାଥ ରାୟ" src="https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_Radhanath_Ray.jpg"/><figcaption>ଐତିହାସିକ ପ୍ରତିଚ୍ଛବି · <a href="https://commons.wikimedia.org/wiki/File:Portrait_of_Radhanath_Ray.jpg" target="_blank" rel="noopener noreferrer">ଚିତ୍ର ଉତ୍ସ</a></figcaption></figure><div class="person-copy"><span>କବିବର · ଆଧୁନିକ ଓଡ଼ିଆ କବିତା</span><h3>ରାଧାନାଥ ରାୟ</h3><p lang="or">କବିବର ରାଧାନାଥ ରାୟ ଆଧୁନିକ ଓଡ଼ିଆ କବିତାର ଗଠନ ଓ ବିକାଶରେ ଏକ ପ୍ରମୁଖ ନାମ। ୧୮୪୮ ମସିହାରେ ଜନ୍ମିତ ରାଧାନାଥ ଶିକ୍ଷକ, ଶିକ୍ଷା ପ୍ରଶାସକ ଓ କବି ଭାବେ କାର୍ଯ୍ୟ କରିଥିଲେ। ତାଙ୍କ ସମୟରେ ଓଡ଼ିଆ ସାହିତ୍ୟ ନୂତନ ଭାଷାଶୈଳୀ, ବିଷୟବସ୍ତୁ ଓ କାବ୍ୟରୂପ ଖୋଜୁଥିଲା। ସେ ପାଶ୍ଚାତ୍ୟ ସାହିତ୍ୟର ନୂତନ ଧାରା ସହ ପରିଚିତ ହୋଇଥିଲେ, କିନ୍ତୁ ନିଜ ରଚନାରେ ଓଡ଼ିଶାର ଭୂଗୋଳ, ଇତିହାସ, ପ୍ରକୃତି ଓ ସାଂସ୍କୃତିକ ସ୍ମୃତିକୁ ମୁଖ୍ୟ ସ୍ଥାନ ଦେଇଥିଲେ। ‘ଚିଲିକା’ କାବ୍ୟରେ ଚିଲିକା ହ୍ରଦର ଅପୂର୍ବ ପ୍ରାକୃତିକ ସୌନ୍ଦର୍ଯ୍ୟ, ଜଳର ରଙ୍ଗ, ଦ୍ୱୀପ, ପକ୍ଷୀ ଓ ଆକାଶର ଚିତ୍ର ଏମିତି ଭାବେ ଅଙ୍କିତ ହୋଇଛି ଯେ ପାଠକ ନିଜକୁ ସେହି ପରିବେଶରେ ଅନୁଭବ କରେ। ‘ମହାଯାତ୍ରା’, ‘କେଦାରଗୌରୀ’ ଓ ‘ନନ୍ଦିକେଶ୍ୱରୀ’ ତାଙ୍କ ଅନ୍ୟାନ୍ୟ ପ୍ରସିଦ୍ଧ କୃତି। ରାଧାନାଥ ଓଡ଼ିଆ କବିତାରେ ଐତିହାସିକ ଚେତନା, ଦେଶପ୍ରେମ ଓ ପ୍ରକୃତିବର୍ଣ୍ଣନାକୁ ନୂତନ ଉଚ୍ଚତା ଦେଇଥିଲେ। ତାଙ୍କ ରଚନା ମାଧ୍ୟମରେ ଓଡ଼ିଶାର ନଦୀ, ପର୍ବତ, ହ୍ରଦ ଓ ପୁରାତନ ସ୍ମାରକୀ ଏକ ସାହିତ୍ୟିକ ପରିଚୟ ପାଇଲା। ତାଙ୍କ କାବ୍ୟ ଆଜି ମଧ୍ୟ ଓଡ଼ିଶାର ପ୍ରାକୃତିକ ଐତିହ୍ୟ ପ୍ରତି ଗର୍ବ, ସ୍ନେହ ଓ ସଂରକ୍ଷଣର ଭାବନା ଜାଗ୍ରତ କରେ। ରାଧାନାଥଙ୍କ କବିତାରେ ଦୃଶ୍ୟବର୍ଣ୍ଣନା ସହ ଇତିହାସ ଓ ସମାଜଚେତନାର ମିଶ୍ରଣ ରହିଛି। ସେ ପ୍ରକୃତିକୁ ମାନବ ଭାବନାର ଆଇନା ଭାବେ ବ୍ୟବହାର କରିଥିଲେ ଏବଂ ଓଡ଼ିଶାର ଭୂମିକୁ ସାହିତ୍ୟର ଗରିମା ଦେଇଥିଲେ। ତାଙ୍କ ରଚନା ଓଡ଼ିଆ ଭାଷାରେ ନୂତନ ଛନ୍ଦ, ଶୈଳୀ ଓ କଳ୍ପନାର ପ୍ରୟୋଗକୁ ପ୍ରୋତ୍ସାହନ ଦେଇଥିଲା। ଶିକ୍ଷାକ୍ଷେତ୍ରରେ କାର୍ଯ୍ୟ କରିଥିବାରୁ ଭାଷା ଓ ପାଠ୍ୟକ୍ରମର ବିକାଶ ସହ ତାଙ୍କର ନିକଟ ସମ୍ପର୍କ ଥିଲା। ଆଜି ଚିଲିକାର ପରିବେଶ ଓ ଓଡ଼ିଶାର ପ୍ରାକୃତିକ ସମ୍ପଦ ନେଇ ଆଲୋଚନା କଲେ ତାଙ୍କ କାବ୍ୟ ଆମକୁ ସୌନ୍ଦର୍ଯ୍ୟ ସହିତ ସଂରକ୍ଷଣର ଦାୟିତ୍ୱ ମଧ୍ୟ ସ୍ମରଣ କରାଏ। ଏହି ମନୀଷୀଙ୍କ କୃତି ଓ କାର୍ଯ୍ୟକୁ ଆଜିର ପିଢ଼ି ନୂତନ ପ୍ରଶ୍ନ ସହ ପଢ଼ିବା ଆବଶ୍ୟକ। ତାଙ୍କ ସମୟର ସାମାଜିକ ପରିସ୍ଥିତି, ଭାଷାର ବିକାଶ ଓ ଐତିହାସିକ ପରିବର୍ତ୍ତନକୁ ବୁଝିଲେ ତାଙ୍କ ଅବଦାନର ଗଭୀରତା ଅଧିକ ସ୍ପଷ୍ଟ ହୁଏ। ରେଭେନ୍ସାର ଅଧ୍ୟୟନ ପରିବେଶରେ ଏପରି ଜୀବନୀ ଆଲୋଚନା ଗବେଷଣା, ପାଠନ ଓ ସୃଜନଶୀଳ ଚିନ୍ତାକୁ ପ୍ରେରଣା ଦେଇପାରେ।</p></div></article>
+<article class="person-card"><figure class="person-photo"><img loading="lazy" alt="ଉପେନ୍ଦ୍ର ଭଞ୍ଜ" src="https://commons.wikimedia.org/wiki/Special:FilePath/Upendra_bhanja_Odia_literature.png"/><figcaption>ପାରମ୍ପରିକ ଚିତ୍ରଣ · ଫଟୋ ନୁହେଁ · <a href="https://commons.wikimedia.org/wiki/File:Upendra_bhanja_Odia_literature.png" target="_blank" rel="noopener noreferrer">ଚିତ୍ର ଉତ୍ସ</a></figcaption></figure><div class="person-copy"><span>ରୀତିଯୁଗୀୟ ମହାକବି</span><h3>ଉପେନ୍ଦ୍ର ଭଞ୍ଜ</h3><p lang="or">ଉପେନ୍ଦ୍ର ଭଞ୍ଜ ଓଡ଼ିଆ ସାହିତ୍ୟର ରୀତିଯୁଗର ସର୍ବଶ୍ରେଷ୍ଠ କବିମାନଙ୍କ ମଧ୍ୟରୁ ଜଣେ। ତାଙ୍କ କବିତାରେ ଶବ୍ଦଚାତୁରୀ, ଅଳଙ୍କାର, ଛନ୍ଦ, ରସ ଓ କଳ୍ପନାର ଅଦ୍ଭୁତ ସମନ୍ୱୟ ଦେଖାଯାଏ। ଭଞ୍ଜଙ୍କ ଜନ୍ମ ଘୁମୁସର ରାଜପରିବାର ସହ ସମ୍ପୃକ୍ତ ଏକ ସାଂସ୍କୃତିକ ପରିବେଶରେ ହୋଇଥିଲା। ସେ ସଂସ୍କୃତ ସାହିତ୍ୟ, ପୁରାଣ, ଶାସ୍ତ୍ର ଓ ଲୋକପରମ୍ପରାରୁ ଗଭୀର ପ୍ରେରଣା ଗ୍ରହଣ କରିଥିଲେ। ‘ବୈଦେହୀଶ ବିଳାସ’, ‘ଲାବଣ୍ୟବତୀ’, ‘କୋଟିବ୍ରହ୍ମାଣ୍ଡ ସୁନ୍ଦରୀ’ ଓ ‘ରସିକହାରାବଳୀ’ ତାଙ୍କ ପ୍ରସିଦ୍ଧ କୃତି। ତାଙ୍କ ରଚନାରେ ନାୟକ-ନାୟିକାଙ୍କ ଭାବ, ପ୍ରକୃତିର ଚିତ୍ର, ଧାର୍ମିକ ଆଖ୍ୟାନ ଓ ମାନବୀୟ ଅନୁଭୂତି ଅତ୍ୟନ୍ତ ସୁନ୍ଦର ଭାବେ ପ୍ରକାଶ ପାଇଛି। ଭଞ୍ଜଙ୍କ କାବ୍ୟର ଭାଷା କେବେ କେବେ ଅତ୍ୟନ୍ତ ଅଳଙ୍କାରମୟ ଓ ଶବ୍ଦକ୍ରୀଡ଼ାପୂର୍ଣ୍ଣ ହୋଇଥାଏ; ଏହି କାରଣରୁ ତାଙ୍କ କବିତା ଅଧ୍ୟୟନ ପାଇଁ ଭାଷାଜ୍ଞାନ ଓ ଧୈର୍ଯ୍ୟ ଆବଶ୍ୟକ। କିନ୍ତୁ ଏହି ଜଟିଳତା ତାଙ୍କ କଳାର ଏକ ବିଶେଷ ଆକର୍ଷଣ। ଓଡ଼ିଆ ଭାଷାର ଶବ୍ଦସମ୍ପଦ, ଛନ୍ଦ ଓ ଅଭିବ୍ୟକ୍ତିର କ୍ଷମତାକୁ ସେ ଅପୂର୍ବ ଭାବେ ପ୍ରଦର୍ଶନ କରିଥିଲେ। ତାଙ୍କ ସାହିତ୍ୟ ଓଡ଼ିଆ କାବ୍ୟ ପରମ୍ପରାର ସୌନ୍ଦର୍ଯ୍ୟ, ଶାସ୍ତ୍ରୀୟତା ଓ ସୃଜନଶୀଳତାର ଏକ ମୂଲ୍ୟବାନ ଧନ। ଉପେନ୍ଦ୍ର ଭଞ୍ଜଙ୍କ ସାହିତ୍ୟ ଓଡ଼ିଆ ଭାଷାର ଅଭିବ୍ୟକ୍ତିଶକ୍ତିକୁ ଅତ୍ୟନ୍ତ ଉଚ୍ଚ ସ୍ତରକୁ ନେଇଥିଲା। ତାଙ୍କ ଶବ୍ଦବିନ୍ୟାସ, ଅନୁପ୍ରାସ, ଉପମା ଓ ରୂପକର ପ୍ରୟୋଗ କବିତାକୁ ସଙ୍ଗୀତମୟ କରିଥାଏ। ତାଙ୍କ କାବ୍ୟ ପାଠ କରିବା ସମୟରେ ପାଠକ ଭାଷାର ସୂକ୍ଷ୍ମ ଅର୍ଥ, ଧ୍ୱନି ଓ ଛନ୍ଦକୁ ଅନୁଭବ କରନ୍ତି। ଭଞ୍ଜଙ୍କ ରଚନା ଓଡ଼ିଶାର ରାଜଦରବାରୀ ସଂସ୍କୃତି, ଶାସ୍ତ୍ରୀୟ ଜ୍ଞାନ ଓ ଲୋକରସର ଏକ ମିଶ୍ର ଚିତ୍ର ଦେଖାଏ। ଆଧୁନିକ ଛାତ୍ରଛାତ୍ରୀଙ୍କ ପାଇଁ ତାଙ୍କ କୃତି ଭାଷାବିଜ୍ଞାନ, ଅଳଙ୍କାରଶାସ୍ତ୍ର ଓ ସାହିତ୍ୟ ଇତିହାସ ଅଧ୍ୟୟନର ଉପଯୋଗୀ ଉତ୍ସ। ଏହି ମନୀଷୀଙ୍କ କୃତି ଓ କାର୍ଯ୍ୟକୁ ଆଜିର ପିଢ଼ି ନୂତନ ପ୍ରଶ୍ନ ସହ ପଢ଼ିବା ଆବଶ୍ୟକ। ତାଙ୍କ ସମୟର ସାମାଜିକ ପରିସ୍ଥିତି, ଭାଷାର ବିକାଶ ଓ ଐତିହାସିକ ପରିବର୍ତ୍ତନକୁ ବୁଝିଲେ ତାଙ୍କ ଅବଦାନର ଗଭୀରତା ଅଧିକ ସ୍ପଷ୍ଟ ହୁଏ। ରେଭେନ୍ସାର ଅଧ୍ୟୟନ ପରିବେଶରେ ଏପରି ଜୀବନୀ ଆଲୋଚନା ଗବେଷଣା, ପାଠନ ଓ ସୃଜନଶୀଳ ଚିନ୍ତାକୁ ପ୍ରେରଣା ଦେଇପାରେ।</p></div></article>
 
-                    <img
-                        class="iks-art"
-                        src="/assets/iks-reference.jpg"
-                        alt="Indian Knowledge Systems awareness artwork">
+<article class="person-card"><figure class="person-photo"><img loading="lazy" alt="କୁନ୍ତଳା କୁମାରୀ ସାବତ" src="https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_Kuntala_Kumari_Sabat.jpg"/><figcaption>ଐତିହାସିକ ଫଟୋ · <a href="https://commons.wikimedia.org/wiki/File:Portrait_of_Kuntala_Kumari_Sabat.jpg" target="_blank" rel="noopener noreferrer">ଚିତ୍ର ଉତ୍ସ</a></figcaption></figure><div class="person-copy"><span>ଉତ୍କଳ ଭାରତୀ · କବୟିତ୍ରୀ · ସମାଜସଂସ୍କାରକ</span><h3>କୁନ୍ତଳା କୁମାରୀ ସାବତ</h3><p lang="or">କୁନ୍ତଳା କୁମାରୀ ସାବତ ଆଧୁନିକ ଓଡ଼ିଆ ସାହିତ୍ୟର ଏକ ଉଜ୍ଜ୍ୱଳ ନାରୀସ୍ୱର। ୧୯୦୧ ମସିହାରେ ଜନ୍ମିତ ଏହି କବୟିତ୍ରୀ ନିଜ ସୃଜନଶୀଳତା, ସାମାଜିକ ସଚେତନତା ଓ ଦେଶପ୍ରେମ ଦ୍ୱାରା ଓଡ଼ିଆ ପାଠକମାନଙ୍କ ମନରେ ସ୍ଥାନ ଅଧିକାର କରିଥିଲେ। ସେହି ସମୟରେ ନାରୀଶିକ୍ଷା ଓ ନାରୀଙ୍କ ସାମାଜିକ ସ୍ୱାଧୀନତା ଅନେକ ବାଧାର ସମ୍ମୁଖୀନ ହେଉଥିଲା। କୁନ୍ତଳା କୁମାରୀ ନିଜ ଲେଖା ମାଧ୍ୟମରେ ଏହି ବାଧାକୁ ପ୍ରଶ୍ନ କରିଥିଲେ ଏବଂ ନାରୀଙ୍କ ଆତ୍ମମର୍ଯ୍ୟାଦା, ଶିକ୍ଷା ଓ ସମାନ ଅଧିକାରର ପକ୍ଷରେ ସ୍ୱର ଉଠାଇଥିଲେ। ତାଙ୍କ କବିତାରେ ମାତୃଭୂମି ପ୍ରତି ଅନୁରାଗ, ମାନବିକତା, ତ୍ୟାଗ ଓ ନୈତିକ ସାହସର ଭାବ ପ୍ରକାଶ ପାଏ। ‘ଅଞ୍ଜଳି’, ‘ଉଚ୍ଛ୍ୱାସ’, ‘ସ୍ଫୁଲିଙ୍ଗ’ ଓ ‘କଳିବୋହୂ’ ପରି କୃତି ତାଙ୍କ ସାହିତ୍ୟିକ ପରିସରକୁ ଚିହ୍ନିତ କରେ। ସେ କେବଳ କବିତାରେ ନୁହେଁ, ଗଦ୍ୟ ଓ ସାମାଜିକ ଚିନ୍ତାରେ ମଧ୍ୟ ନିଜ ଅବଦାନ ରଖିଥିଲେ। ତାଙ୍କ ରଚନାରେ ନାରୀର ଅନୁଭବକୁ ଗୌଣ କରାଯାଇନାହିଁ; ବରଂ ତାହାକୁ ସମାଜର ମୁଖ୍ୟ ଆଲୋଚନାରେ ଆଣାଯାଇଛି। ଜଣେ ଡାକ୍ତର ଭାବେ ମଧ୍ୟ ସେ ଲୋକସେବା ସହ ଜଡ଼ିତ ଥିଲେ, ଯାହା ତାଙ୍କ ସାହିତ୍ୟର ମାନବିକ ଦୃଷ୍ଟିକୋଣକୁ ଆହୁରି ଗଭୀର କରିଥିଲା। ତାଙ୍କ ଜୀବନ ଛାତ୍ରୀମାନଙ୍କୁ ନିଜ ସ୍ୱପ୍ନ ପାଇଁ ଅଧ୍ୟବସାୟ କରିବାର ପ୍ରେରଣା ଦିଏ ଏବଂ ଛାତ୍ରମାନଙ୍କୁ ସମାଜରେ ଲିଙ୍ଗସମାନତାର ମୂଲ୍ୟ ବୁଝାଏ। ଆଜି ତାଙ୍କ ସାହିତ୍ୟ ପଢ଼ିବା ମାନେ କେବଳ ଜଣେ କବୟିତ୍ରୀଙ୍କୁ ସ୍ମରଣ କରିବା ନୁହେଁ; ଏହା ଓଡ଼ିଶାର ନାରୀଜାଗରଣ, ଆଧୁନିକତା ଓ ମାନବୀୟ ଅଧିକାରର ଇତିହାସକୁ ବୁଝିବା ମଧ୍ୟ। ତାଙ୍କ ଜୀବନ ଓ କୃତି ଆଜିର ଶିକ୍ଷାର୍ଥୀଙ୍କୁ ପାଠପଢ଼ା ସହ ସମାଜ ପ୍ରତି ଦାୟିତ୍ୱବାନ ହେବାକୁ ଶିଖାଏ।</p></div></article>
+<article class="person-card"><figure class="person-photo"><img loading="lazy" alt="ସନ୍ଥକବି ଭୀମ ଭୋଇଙ୍କ ପାରମ୍ପରିକ ଚିତ୍ରଣ" src="https://commons.wikimedia.org/wiki/Special:FilePath/Bhima_Bhoi.png"/><figcaption>କଳାତ୍ମକ ପ୍ରତିଚ୍ଛବି · ଫଟୋ ନୁହେଁ · <a href="https://commons.wikimedia.org/wiki/File:Bhima_Bhoi.png" target="_blank" rel="noopener noreferrer">ଚିତ୍ର ଉତ୍ସ</a></figcaption></figure><div class="person-copy"><span>ସନ୍ଥକବି · ମହିମା ଧର୍ମ · ମାନବତାବାଦୀ</span><h3>ସନ୍ଥକବି ଭୀମ ଭୋଇ</h3><p lang="or">ଭୀମ ଭୋଇ ଓଡ଼ିଶାର ଭକ୍ତି, ଆଧ୍ୟାତ୍ମିକତା ଓ ସାମାଜିକ ସମତାର ଇତିହାସରେ ଏକ ଅସାଧାରଣ କବିସ୍ୱର। ଊନବିଂଶ ଶତାବ୍ଦୀରେ ଜନ୍ମିତ ଭୀମ ଭୋଇ ମହିମା ଧର୍ମର ମୁଖ୍ୟ କବି ଓ ପ୍ରଚାରକ ଭାବେ ପରିଚିତ। ତାଙ୍କ ଜୀବନ ସମ୍ପର୍କରେ ଅନେକ ଲୋକପରମ୍ପରା ରହିଛି; ତଥାପି ତାଙ୍କ କବିତାର ମାନବିକ ବାର୍ତ୍ତା ନିର୍ଦ୍ଦିଷ୍ଟ ଓ ସ୍ପଷ୍ଟ। ସେ ଜାତିଭେଦ, ଅନ୍ୟାୟ, ଅହଂକାର ଓ ଧାର୍ମିକ ଆଡ଼ମ୍ବରକୁ ପ୍ରଶ୍ନ କରିଥିଲେ। ତାଙ୍କ ଚିନ୍ତାଧାରାର କେନ୍ଦ୍ରରେ ଥିଲା ସମସ୍ତ ଜୀବଙ୍କ ଦୁଃଖ ପ୍ରତି କରୁଣା ଓ ମଣିଷମାନଙ୍କ ମଧ୍ୟରେ ସମାନତା। ‘ସ୍ତୁତି ଚିନ୍ତାମଣି’ ତାଙ୍କ ନାମ ସହ ଜଡ଼ିତ ପ୍ରସିଦ୍ଧ କୃତି, ଯେଉଁଥିରେ ଭକ୍ତି, ଆତ୍ମସମର୍ପଣ, ନୈତିକତା ଓ ଜଗତର ଦୁଃଖକୁ ନେଇ ଗଭୀର ଚିନ୍ତନ ମିଳେ। ତାଙ୍କ ଭାଷା ଲୋକଜୀବନର ନିକଟ, ତେଣୁ ତାଙ୍କ ବାଣୀ ସାଧାରଣ ଲୋକଙ୍କ ମନକୁ ସ୍ପର୍ଶ କରିପାରିଥିଲା। ଭୀମ ଭୋଇଙ୍କ କବିତା ମାନବସେବାକୁ ଆଧ୍ୟାତ୍ମିକ ସାଧନାର ଅଂଶ ଭାବେ ଦେଖେ। ତାଙ୍କ ପ୍ରସିଦ୍ଧ ଭାବବାଣୀ “ମୋ ଜୀବନ ପଛେ ନର୍କେ ପଡ଼ିଥାଉ, ଜଗତ ଉଦ୍ଧାର ହେଉ” ନିଜ ସ୍ୱାର୍ଥଠାରୁ ସମସ୍ତଙ୍କ ମଙ୍ଗଳକୁ ଉଚ୍ଚ ସ୍ଥାନ ଦେବାର ଆଦର୍ଶକୁ ପ୍ରକାଶ କରେ। ଏହି ଭାବନା ଆଜିର ଛାତ୍ରଛାତ୍ରୀଙ୍କୁ ସହାନୁଭୂତି, ସାମାଜିକ ନ୍ୟାୟ ଓ ଦାୟିତ୍ୱବୋଧର ମୂଲ୍ୟ ଶିଖାଏ। ତାଙ୍କ ସାହିତ୍ୟ ଅଧ୍ୟୟନ କଲେ ଓଡ଼ିଶାର ଲୋକଧର୍ମ, ଆଦିବାସୀ ଅନୁଭବ ଓ ଆଧ୍ୟାତ୍ମିକ ଆନ୍ଦୋଳନର ଇତିହାସକୁ ମଧ୍ୟ ଭଲଭାବେ ବୁଝିହୁଏ।</p></div></article>
+<article class="person-card"><figure class="person-photo"><img loading="lazy" alt="ମହାକବି ସାରଳା ଦାସଙ୍କ ଚିତ୍ର" src="https://commons.wikimedia.org/wiki/Special:FilePath/Painting_of_Sarala_Dasa.jpg"/><figcaption>ସଂଗ୍ରହାଳୟରେ ଥିବା ଚିତ୍ର · ଫଟୋ ନୁହେଁ · <a href="https://commons.wikimedia.org/wiki/File:Painting_of_Sarala_Dasa.jpg" target="_blank" rel="noopener noreferrer">ଚିତ୍ର ଉତ୍ସ</a></figcaption></figure><div class="person-copy"><span>ଆଦିକବି · ଓଡ଼ିଆ ମହାଭାରତର ରଚୟିତା</span><h3>ସାରଳା ଦାସ</h3><p lang="or">ସାରଳା ଦାସ ଓଡ଼ିଆ ସାହିତ୍ୟର ଆଦିକବି ଭାବେ ସମ୍ମାନିତ। ପନ୍ଦରଶତାବ୍ଦୀରେ ସେ ଓଡ଼ିଆ ଭାଷାକୁ ଏକ ବିଶାଳ କାବ୍ୟିକ ଅଭିବ୍ୟକ୍ତି ଦେଇଥିଲେ। ସେ ସଂସ୍କୃତ ମହାଭାରତର କେବଳ ଶବ୍ଦାନୁବାଦ କରିନଥିଲେ; ନିଜ ସମୟର ଓଡ଼ିଶାର ଲୋକଜୀବନ, ଭାଷା, ଆସ୍ଥା, ରୀତିନୀତି ଓ ସାମାଜିକ ଅନୁଭବକୁ ମିଶାଇ ଏକ ସ୍ୱତନ୍ତ୍ର ଓଡ଼ିଆ ମହାଭାରତ ରଚନା କରିଥିଲେ। ଏହି କାରଣରୁ ତାଙ୍କ କୃତି ଓଡ଼ିଆ ଜନମାନସରେ ଗଭୀର ଭାବେ ମୂଳ ଗାଡ଼ିଛି। ‘ସାରଳା ମହାଭାରତ’ ସହ ‘ବିଲଙ୍କା ରାମାୟଣ’ ଓ ‘ଚଣ୍ଡୀ ପୁରାଣ’ ତାଙ୍କ ସାହିତ୍ୟିକ ପ୍ରତିଭାର ପ୍ରମୁଖ ଉଦାହରଣ। ତାଙ୍କ ଭାଷା ସରଳ, ଲୋକମୁଖୀ ଓ ଶକ୍ତିଶାଳୀ; ଏଥିରେ ଗ୍ରାମୀଣ ଜୀବନର ଚିତ୍ର, ଲୋକକଥା, ପ୍ରବଚନ ଓ ଲୋକବିଶ୍ୱାସର ସ୍ୱାଭାବିକ ସମାବେଶ ଦେଖାଯାଏ। ସାରଳା ଦାସ ମହାକାବ୍ୟକୁ କେବଳ ରାଜଦରବାର କିମ୍ବା ପଣ୍ଡିତମାନଙ୍କ ପରିସରରେ ସୀମିତ ରଖିନଥିଲେ; ଲୋକଭାଷାରେ ରଚନା କରି ସେ ଏହାକୁ ସାଧାରଣ ଲୋକଙ୍କ ନିକଟକୁ ନେଇଥିଲେ। ତାଙ୍କ ରଚନାରେ ଓଡ଼ିଶାର ଭୂଗୋଳ, ଖାଦ୍ୟ, ପୋଷାକ, ସାମାଜିକ ସମ୍ପର୍କ ଓ ଲୋକଚରିତ୍ରର ଚିହ୍ନ ମିଳେ। ଏହି କାରଣରୁ ତାଙ୍କ କାବ୍ୟ ଇତିହାସ ଓ ସଂସ୍କୃତି ଅଧ୍ୟୟନ ପାଇଁ ମଧ୍ୟ ମୂଲ୍ୟବାନ। ଆଜିର ଶିକ୍ଷାର୍ଥୀଙ୍କ ପାଇଁ ସାରଳା ଦାସଙ୍କ ଜୀବନ ମାତୃଭାଷାରେ ଜ୍ଞାନ ସୃଷ୍ଟି କରିବା, ନିଜ ସମାଜର ଅନୁଭବକୁ ସମ୍ମାନ କରିବା ଓ ସୃଜନଶୀଳତାରେ ନୂତନ ଦିଗ ଖୋଜିବାର ପ୍ରେରଣା।</p></div></article>
+<article class="person-card"><figure class="person-photo"><img loading="lazy" alt="କବି ଜୟଦେବଙ୍କ ସହ ଜଡ଼ିତ ଐତିହାସିକ ମୂର୍ତ୍ତି" src="https://commons.wikimedia.org/wiki/Special:FilePath/Idol_of_Jayadeba_at_Jayadeba_Pitha,_Kendubilwa,_Odisha.jpg"/><figcaption>କେନ୍ଦୁବିଲ୍ୱ ପୀଠର ମୂର୍ତ୍ତି · ଫଟୋ, ପ୍ରତିଚ୍ଛବି ନୁହେଁ · <a href="https://commons.wikimedia.org/wiki/Category:Jayadeva" target="_blank" rel="noopener noreferrer">ଚିତ୍ର ଉତ୍ସ</a></figcaption></figure><div class="person-copy"><span>କବିରାଜ · ଗୀତଗୋବିନ୍ଦର ସ୍ରଷ୍ଟା</span><h3>କବି ଜୟଦେବ</h3><p lang="or">ଦ୍ୱାଦଶ ଶତାବ୍ଦୀର କବି ଜୟଦେବ ଭାରତୀୟ ସାହିତ୍ୟ, ସଙ୍ଗୀତ ଓ ଭକ୍ତି ପରମ୍ପରାରେ ଅମର ସ୍ଥାନ ଅଧିକାର କରିଛନ୍ତି। ତାଙ୍କ ନାମ ସହ ଜଡ଼ିତ ‘ଗୀତଗୋବିନ୍ଦ’ ସଂସ୍କୃତ କାବ୍ୟର ଏକ ଅତ୍ୟନ୍ତ ପ୍ରଭାବଶାଳୀ ସୃଷ୍ଟି। ଏହି କାବ୍ୟରେ ରାଧା ଓ କୃଷ୍ଣଙ୍କ ପ୍ରେମ, ବିରହ, ମିଳନ ଓ ଭକ୍ତିର ଅନୁଭୂତିକୁ ଗୀତିମୟ ଭାଷାରେ ପ୍ରକାଶ କରାଯାଇଛି। ଏହାର ଅଷ୍ଟପଦୀଗୁଡ଼ିକ ଶାସ୍ତ୍ରୀୟ ସଙ୍ଗୀତ, ଓଡ଼ିଶୀ ସଙ୍ଗୀତ ଓ ମନ୍ଦିର ପରମ୍ପରାରେ ଦୀର୍ଘକାଳ ଧରି ଗାଇ ଆସାଯାଉଛି। ଜୟଦେବଙ୍କ ଜନ୍ମସ୍ଥାନ ସମ୍ପର୍କରେ ଐତିହାସିକ ଆଲୋଚନା ଥିଲେ ମଧ୍ୟ ଓଡ଼ିଶାର କେନ୍ଦୁବିଲ୍ୱ/କେନ୍ଦୁଳି ସହ ତାଙ୍କ ଗଭୀର ସାଂସ୍କୃତିକ ସମ୍ପର୍କ ରହିଛି। ‘ଗୀତଗୋବିନ୍ଦ’ର ଭାଷାରେ ଛନ୍ଦ, ଅନୁପ୍ରାସ, ସଙ୍ଗୀତ ଓ ଭାବନାର ଅପୂର୍ବ ମିଳନ ଦେଖାଯାଏ। ଏହା କେବଳ ଧାର୍ମିକ ପାଠ୍ୟ ନୁହେଁ; ଏହା ନୃତ୍ୟ, ଚିତ୍ରକଳା, ମୂର୍ତ୍ତିକଳା ଓ ସଙ୍ଗୀତକୁ ମଧ୍ୟ ପ୍ରେରଣା ଦେଇଛି। ଓଡ଼ିଶୀ ନୃତ୍ୟର ଅନେକ ପାରମ୍ପରିକ ପ୍ରସ୍ତୁତିରେ ଗୀତଗୋବିନ୍ଦର ଅଷ୍ଟପଦୀର ଗୁରୁତ୍ୱ ରହିଛି। ଜୟଦେବଙ୍କ କାବ୍ୟ ଭକ୍ତିକୁ ଭାବନା, ସୌନ୍ଦର୍ଯ୍ୟ ଓ କଳାର ମାଧ୍ୟମରେ ଅନୁଭବ କରାଏ। ଛାତ୍ରଛାତ୍ରୀ ତାଙ୍କ କୃତି ଅଧ୍ୟୟନ କଲେ ଭାଷା, ସଙ୍ଗୀତ, ନୃତ୍ୟ ଓ ଧର୍ମୀୟ ସଂସ୍କୃତିର ଆନ୍ତଃସମ୍ପର୍କ ବୁଝିପାରିବେ। ତାଙ୍କ ସ୍ମୃତି ଓଡ଼ିଶାର ସାଂସ୍କୃତିକ ଐତିହ୍ୟକୁ ଭାରତୀୟ ଓ ବିଶ୍ୱ ପରିସର ସହ ଯୋଡ଼ି ରଖିଛି।</p></div></article>
 
-                </div>
+<article class="person-card"><figure class="person-photo"><img loading="lazy" alt="ଗୋପୀନାଥ ମହାନ୍ତିଙ୍କ ଐତିହାସିକ ଫଟୋ" src="https://commons.wikimedia.org/wiki/Special:FilePath/Gopinath_Mohanty_02.jpg"/><figcaption>ଐତିହାସିକ ଫଟୋ · <a href="https://commons.wikimedia.org/wiki/File:Gopinath_Mohanty_02.jpg" target="_blank" rel="noopener noreferrer">ଚିତ୍ର ଉତ୍ସ</a></figcaption></figure><div class="person-copy"><span>ଜ୍ଞାନପୀଠ ପୁରସ୍କାରପ୍ରାପ୍ତ ଔପନ୍ୟାସିକ</span><h3>ଗୋପୀନାଥ ମହାନ୍ତି</h3><p lang="or">ଗୋପୀନାଥ ମହାନ୍ତି ଆଧୁନିକ ଓଡ଼ିଆ ଉପନ୍ୟାସ ସାହିତ୍ୟର ଏକ ଶିଖରସ୍ଥ ସ୍ରଷ୍ଟା। ୧୯୧୪ ମସିହାରେ ଜନ୍ମିତ ଏହି ସାହିତ୍ୟିକ ଓଡ଼ିଶାର ଗ୍ରାମୀଣ ଜୀବନ, ଆଦିବାସୀ ସମାଜ, ମଣିଷର ମନୋବୃତ୍ତି ଓ ସାମାଜିକ ପରିବର୍ତ୍ତନକୁ ଅତ୍ୟନ୍ତ ସୂକ୍ଷ୍ମ ଭାବେ ଚିତ୍ରଣ କରିଥିଲେ। ତାଙ୍କ ଲେଖାରେ ପାହାଡ଼, ଜଙ୍ଗଲ, ନଦୀ, ଗାଁ ଓ ପ୍ରକୃତି କେବଳ ପୃଷ୍ଠଭୂମି ନୁହେଁ; ସେଗୁଡ଼ିକ ମଣିଷର ଜୀବନ ଓ ସଂସ୍କୃତି ସହ ଅବିଚ୍ଛିନ୍ନ ଭାବେ ଜଡ଼ିତ। ‘ପରଜା’ ଉପନ୍ୟାସରେ ଆଦିବାସୀ ଜୀବନର ସଂଘର୍ଷ, ଜମି ଓ ଜଙ୍ଗଲ ସହ ସମ୍ପର୍କ, ଶୋଷଣ ଏବଂ ମାନବୀୟ ମର୍ଯ୍ୟାଦାର ପ୍ରଶ୍ନ ଉଠିଛି। ‘ମାଟିମଟାଳ’ ତାଙ୍କର ଅନ୍ୟତମ ପ୍ରସିଦ୍ଧ କୃତି, ଯାହା ଗ୍ରାମୀଣ ସମାଜର ଜଟିଳ ଜୀବନକୁ ମହାକାବ୍ୟିକ ବିସ୍ତାର ଦେଇଥାଏ। ୧୯୭୩ ମସିହାରେ ‘ମାଟିମଟାଳ’ ପାଇଁ ସେ ଜ୍ଞାନପୀଠ ପୁରସ୍କାର ପାଇଥିଲେ; ଓଡ଼ିଆ ଭାଷାରେ ଏହା ପ୍ରଥମ ଜ୍ଞାନପୀଠ ସମ୍ମାନ ଥିଲା। ତାଙ୍କ ଭାଷାରେ ଲୋକଜୀବନର ସ୍ୱାଭାବିକତା, ମନୋବୈଜ୍ଞାନିକ ଗଭୀରତା ଓ କବିତାମୟ ଚିତ୍ରଣ ମିଳେ। ଜଣେ ପ୍ରଶାସକ ଭାବେ ଆଦିବାସୀ ଅଞ୍ଚଳରେ କାମ କରିବାର ଅନୁଭବ ତାଙ୍କୁ ସେହି ସମାଜର ଭିତରୁ ଜୀବନକୁ ବୁଝିବାର ସୁଯୋଗ ଦେଇଥିଲା। ତାଙ୍କ ସାହିତ୍ୟ ପଢ଼ିଲେ ଛାତ୍ରଛାତ୍ରୀ ସାମାଜିକ ନ୍ୟାୟ, ସଂସ୍କୃତିର ବିବିଧତା, ପରିବେଶ ଓ ମାନବୀୟ ସମ୍ପର୍କ ବିଷୟରେ ଗଭୀର ଚିନ୍ତା କରିପାରିବେ।</p></div></article>
+<article class="person-card"><figure class="person-photo"><img loading="lazy" alt="ଲେଖିକା ପ୍ରତିଭା ରାୟଙ୍କ ଫଟୋ" src="https://commons.wikimedia.org/wiki/Special:FilePath/Pratiba_Ray_2010.JPG"/><figcaption>ଲେଖିକାଙ୍କ ଫଟୋ · <a href="https://commons.wikimedia.org/wiki/File:Pratiba_Ray_2010.JPG" target="_blank" rel="noopener noreferrer">ଚିତ୍ର ଉତ୍ସ</a></figcaption></figure><div class="person-copy"><span>ଜ୍ଞାନପୀଠ ସମ୍ମାନିତ ଔପନ୍ୟାସିକା</span><h3>ଡ. ପ୍ରତିଭା ରାୟ</h3><p lang="or">ଡ. ପ୍ରତିଭା ରାୟ ଆଧୁନିକ ଓଡ଼ିଆ ସାହିତ୍ୟର ଅଗ୍ରଣୀ ଔପନ୍ୟାସିକା ଓ ଚିନ୍ତକ। ୧୯୪୩ ମସିହାରେ ଜଗତସିଂହପୁର ଅଞ୍ଚଳରେ ଜନ୍ମିତ ପ୍ରତିଭା ରାୟ ଶିକ୍ଷା, ଗବେଷଣା ଓ ସାହିତ୍ୟ ସୃଷ୍ଟିକୁ ଏକାସାଥିରେ ଆଗେଇ ନେଇଛନ୍ତି। ତାଙ୍କ ରଚନାରେ ନାରୀଜୀବନ, ଇତିହାସ, ମାନବତା, ସାମାଜିକ ଅସମାନତା ଓ ଆତ୍ମପରିଚୟର ପ୍ରଶ୍ନ ଗଭୀର ଭାବେ ଉପସ୍ଥାପିତ ହୋଇଛି। ‘ଯାଜ୍ଞସେନୀ’ ଉପନ୍ୟାସରେ ମହାଭାରତର ଦ୍ରୌପଦୀଙ୍କ ଅନୁଭବକୁ ନାରୀର ନିଜସ୍ୱ ଦୃଷ୍ଟିକୋଣରୁ ପୁନଃପାଠ କରାଯାଇଛି। ଏହି କୃତି ମାଧ୍ୟମରେ ସେ ପୁରାଣର ପରିଚିତ ଚରିତ୍ରକୁ ଏକ ଜଟିଳ, ସ୍ୱାଧୀନ ଓ ଚିନ୍ତନଶୀଳ ମଣିଷ ଭାବେ ଦେଖାଇଛନ୍ତି। ‘ଶିଳାପଦ୍ମ’, ‘ଆଦିଭୂମି’ ଓ ଅନ୍ୟାନ୍ୟ ରଚନାରେ ସେ ଇତିହାସ ଓ ସମକାଳୀନ ସମାଜକୁ ସଂଲାପରେ ଆଣିଛନ୍ତି। ୨୦୧୧ ମସିହାରେ ସେ ‘ଯାଜ୍ଞସେନୀ’ ପାଇଁ ଜ୍ଞାନପୀଠ ପୁରସ୍କାର ପାଇଥିଲେ। ତାଙ୍କ ସାହିତ୍ୟ ଓଡ଼ିଆ ଭାଷାକୁ ଜାତୀୟ ପରିସରରେ ଅଧିକ ପରିଚିତ କରିଛି। ଶିକ୍ଷାକ୍ଷେତ୍ରରେ ତାଙ୍କ ଅନୁଭବ ଓ ଗବେଷଣାମୂଳକ ଦୃଷ୍ଟି ତାଙ୍କ ଲେଖାକୁ ତଥ୍ୟ, ମନୋବିଜ୍ଞାନ ଓ ସାମାଜିକ ସମ୍ବେଦନାରେ ସମୃଦ୍ଧ କରିଛି। ଛାତ୍ରଛାତ୍ରୀ ତାଙ୍କ କୃତିରୁ ପ୍ରଶ୍ନ କରିବା, ପ୍ରଚଳିତ ଧାରଣାକୁ ପୁନଃବିଚାର କରିବା ଓ ମାନବୀୟ ମର୍ଯ୍ୟାଦାକୁ ସମ୍ମାନ କରିବାର ଶିକ୍ଷା ପାଇପାରିବେ।</p></div></article>
+<article class="person-card"><figure class="person-photo"><img loading="lazy" alt="କାନ୍ତକବି ଲକ୍ଷ୍ମୀକାନ୍ତ ମହାପାତ୍ରଙ୍କ ପ୍ରତିମୂର୍ତ୍ତି" src="https://commons.wikimedia.org/wiki/Special:FilePath/Laxmikanta_Mohapatra_Statue.jpg"/><figcaption>ଭୁବନେଶ୍ୱରର ପ୍ରତିମୂର୍ତ୍ତି · <a href="https://commons.wikimedia.org/wiki/File:Laxmikanta_Mohapatra_Statue.jpg" target="_blank" rel="noopener noreferrer">ଚିତ୍ର ଉତ୍ସ</a></figcaption></figure><div class="person-copy"><span>କାନ୍ତକବି · ‘ବନ୍ଦେ ଉତ୍କଳ ଜନନୀ’ର ସ୍ରଷ୍ଟା</span><h3>ଲକ୍ଷ୍ମୀକାନ୍ତ ମହାପାତ୍ର</h3><p lang="or">କାନ୍ତକବି ଲକ୍ଷ୍ମୀକାନ୍ତ ମହାପାତ୍ର ଓଡ଼ିଆ ଜାତୀୟ ଚେତନା ଓ ସାହିତ୍ୟର ଏକ ଅତ୍ୟନ୍ତ ପ୍ରିୟ ନାମ। ୧୮୮୮ ମସିହାରେ କଟକ ଅଞ୍ଚଳରେ ଜନ୍ମିତ ଏହି କବି ନିଜ ଗୀତ, କବିତା, ନାଟକ ଓ ବ୍ୟଙ୍ଗରେ ଓଡ଼ିଆ ଜୀବନର ଆଶା, ସଂଘର୍ଷ ଓ ହାସ୍ୟବୋଧକୁ ଅଭିବ୍ୟକ୍ତ କରିଥିଲେ। ତାଙ୍କ ସର୍ବାଧିକ ପରିଚିତ ରଚନା ‘ବନ୍ଦେ ଉତ୍କଳ ଜନନୀ’ ଓଡ଼ିଶାର ଭୂମି, ନଦୀ, ପର୍ବତ, ସଂସ୍କୃତି ଓ ଜନସାଧାରଣଙ୍କ ପ୍ରତି ଗଭୀର ଶ୍ରଦ୍ଧାର ସଙ୍ଗୀତ। ଏହା ଓଡ଼ିଆ ଭାଷାଭାଷୀ ଲୋକଙ୍କ ମଧ୍ୟରେ ଏକତା ଓ ଆତ୍ମପରିଚୟର ଭାବନାକୁ ଶକ୍ତି ଦେଇଥିଲା ଏବଂ ୨୦୨୦ ମସିହାରେ ଓଡ଼ିଶାର ରାଜ୍ୟ ସଙ୍ଗୀତ ଭାବେ ସ୍ୱୀକୃତି ପାଇଲା। ଲକ୍ଷ୍ମୀକାନ୍ତଙ୍କ ରଚନାରେ ଦେଶପ୍ରେମ ଥିଲେ ମଧ୍ୟ ତାହା କେବଳ ଉତ୍ସାହର ଭାଷା ନୁହେଁ; ଏଥିରେ ମାଟି ପ୍ରତି ଦାୟିତ୍ୱ, ଭାଷା ପ୍ରତି ଭଲପାଇବା ଓ ସାମାଜିକ ଜାଗରଣର ଆହ୍ୱାନ ରହିଛି। ସେ ନାଟକ ଓ ବ୍ୟଙ୍ଗ ମାଧ୍ୟମରେ ସମାଜର ଅସଙ୍ଗତିକୁ ମଧ୍ୟ ଉଜାଗର କରିଥିଲେ। ତାଙ୍କ ଜୀବନରେ ଶାରୀରିକ ଅସୁସ୍ଥତା ଓ ବ୍ୟକ୍ତିଗତ ସଂଘର୍ଷ ଥିଲେ ମଧ୍ୟ ସୃଜନଶୀଳତାର ଶକ୍ତି କମିନଥିଲା। ଆଜିର ଶିକ୍ଷାର୍ଥୀଙ୍କ ପାଇଁ ତାଙ୍କ ଜୀବନ ମାତୃଭାଷାର ସମ୍ମାନ, ସାମୂହିକ ଏକତା ଓ ସୃଜନଶୀଳ ସାହସର ଉଦାହରଣ। ତାଙ୍କ ଗୀତ ଆମକୁ ମନେ ପକାଏ ଯେ ନିଜ ମାଟିକୁ ଭଲପାଇବାର ଅର୍ଥ ହେଉଛି ତାହାର ଲୋକ, ପରିବେଶ ଓ ଭାଷାର ଯତ୍ନ ନେବା।</p></div></article>
+<article class="person-card"><figure class="person-photo"><img loading="lazy" alt="ଓଡ଼ିଆ ଲେଖିକା ବୀଣାପାଣି ମହାନ୍ତିଙ୍କ ଫଟୋ" src="https://commons.wikimedia.org/wiki/Special:FilePath/Odia_writer_Binapani_Mohanty.jpg"/><figcaption>ସାହିତ୍ୟିକାଙ୍କ ଫଟୋ · <a href="https://commons.wikimedia.org/wiki/File:Odia_writer_Binapani_Mohanty.jpg" target="_blank" rel="noopener noreferrer">ଚିତ୍ର ଉତ୍ସ</a></figcaption></figure><div class="person-copy"><span>ଜ୍ଞାନପୀଠ ସମ୍ମାନିତ ଗଳ୍ପକାର</span><h3>ବୀଣାପାଣି ମହାନ୍ତି</h3><p lang="or">ବୀଣାପାଣି ମହାନ୍ତି ଓଡ଼ିଆ ଗଳ୍ପ ସାହିତ୍ୟର ଏକ ସଶକ୍ତ ଓ ସମ୍ବେଦନଶୀଳ ସ୍ୱର। ୧୯୩୬ ମସିହାରେ ଜନ୍ମିତ ଏହି ଲେଖିକା ନିଜ ଗଳ୍ପ ଓ ଉପନ୍ୟାସରେ ନାରୀଜୀବନ, ପରିବାର, ସାମାଜିକ ମୂଲ୍ୟବୋଧ ଓ ମଣିଷର ଅନ୍ତର୍ଜଗତକୁ ଗଭୀର ଭାବେ ଅନୁସନ୍ଧାନ କରିଛନ୍ତି। ତାଙ୍କ ଲେଖାରେ ଦୈନନ୍ଦିନ ଜୀବନର ଛୋଟ ଘଟଣା ମଧ୍ୟ ବଡ଼ ସାମାଜିକ ପ୍ରଶ୍ନର ଦ୍ୱାର ଖୋଲିଦିଏ। ନାରୀଙ୍କ ଆଶା, ଅସ୍ୱୀକୃତି, ନିରବ ଯନ୍ତ୍ରଣା ଓ ଆତ୍ମସମ୍ମାନକୁ ସେ ଅତ୍ୟନ୍ତ ସୂକ୍ଷ୍ମ ଭାଷାରେ ଚିତ୍ରଣ କରିଛନ୍ତି। ‘ପଟଦେଇ’ ତାଙ୍କ ଅତ୍ୟନ୍ତ ପ୍ରସିଦ୍ଧ ଗଳ୍ପ; ଏହାର ଚଳଚ୍ଚିତ୍ର ରୂପାନ୍ତର ମଧ୍ୟ ଓଡ଼ିଆ ସଂସ୍କୃତିରେ ଚର୍ଚ୍ଚିତ। ତାଙ୍କ ଅନ୍ୟାନ୍ୟ ଗଳ୍ପସଂଗ୍ରହ ଓ ଉପନ୍ୟାସ ମଧ୍ୟ ଓଡ଼ିଆ ପାଠକଙ୍କ ମନରେ ସ୍ଥାନ ପାଇଛି। ୨୦୧୯ ମସିହାରେ ତାଙ୍କୁ ଓଡ଼ିଆ ସାହିତ୍ୟ ପାଇଁ ଜ୍ଞାନପୀଠ ପୁରସ୍କାର ଦିଆଯାଇଥିଲା। ତାଙ୍କ ସାହିତ୍ୟର ମୂଳ ଶକ୍ତି ହେଉଛି ଚରିତ୍ରମାନଙ୍କୁ ନ୍ୟାୟ କରିବାର ଚେଷ୍ଟା—ସେମାନଙ୍କୁ କେବଳ ଭଲ କିମ୍ବା ଖରାପ ଭାବେ ନୁହେଁ, ଜଟିଳ ମଣିଷ ଭାବେ ଦେଖିବା। ଶିକ୍ଷାର୍ଥୀମାନେ ତାଙ୍କ ଗଳ୍ପ ପଢ଼ି ସମାଜର ଅଦୃଶ୍ୟ ଅସମାନତା, ଲିଙ୍ଗଭିତ୍ତିକ ଆଶା ଓ ମାନବୀୟ ସମ୍ପର୍କର ସୂକ୍ଷ୍ମତାକୁ ବୁଝିପାରିବେ। ତାଙ୍କ କୃତି ଓଡ଼ିଆ ଗଳ୍ପକୁ ଜାତୀୟ ସାହିତ୍ୟରେ ସମ୍ମାନଜନକ ସ୍ଥାନ ଦେଇଛି।</p></div></article>
+<article class="person-card"><figure class="person-photo"><img loading="lazy" alt="ଓଡ଼ିଶାର ସାହିତ୍ୟିକ ଓ ଶିକ୍ଷାବିତ୍ ଜଗନ୍ନାଥ ମହାନ୍ତିଙ୍କ ଫଟୋ" src="https://commons.wikimedia.org/wiki/Special:FilePath/Jagannath_Mohanty.jpeg"/><figcaption>ଐତିହାସିକ ଫଟୋ · <a href="https://commons.wikimedia.org/wiki/File:Jagannath_Mohanty.jpeg" target="_blank" rel="noopener noreferrer">ଚିତ୍ର ଉତ୍ସ</a></figcaption></figure><div class="person-copy"><span>ଓଡ଼ିଆ ଶିକ୍ଷାବିତ୍ · ଶିଶୁସାହିତ୍ୟିକ</span><h3>ଡ. ଜଗନ୍ନାଥ ମହାନ୍ତି</h3><p lang="or">ଡ. ଜଗନ୍ନାଥ ମହାନ୍ତି ଓଡ଼ିଆ ଶିକ୍ଷା ଓ ଶିଶୁସାହିତ୍ୟ କ୍ଷେତ୍ରରେ ପରିଚିତ ଲେଖକ ଓ ଶିକ୍ଷାବିତ୍। ତାଙ୍କ କାର୍ଯ୍ୟର ମୁଖ୍ୟ ଲକ୍ଷ୍ୟ ଥିଲା ଶିଶୁ ଓ ଯୁବପିଢ଼ିଙ୍କ ମନରେ ପାଠପଢ଼ା ପ୍ରତି ଆଗ୍ରହ, ନୈତିକ ଚେତନା ଓ ସୃଜନଶୀଳ ଚିନ୍ତାକୁ ଜାଗ୍ରତ କରିବା। ଶିଶୁସାହିତ୍ୟ କେବଳ ମନୋରଞ୍ଜନ ନୁହେଁ; ଏହା ଶିଶୁର ଭାଷା, କଳ୍ପନା, ଯୁକ୍ତିବୋଧ ଓ ସାମାଜିକ ସମ୍ବେଦନାକୁ ବିକଶିତ କରେ—ଏହି ଧାରଣା ତାଙ୍କ ଲେଖା ଓ ଶିକ୍ଷାଚିନ୍ତାରେ ଦେଖାଯାଏ। ସେ ଓଡ଼ିଆରେ ଶିଶୁମାନଙ୍କ ପାଇଁ ଗଳ୍ପ, ଉପନ୍ୟାସ, ଜୀବନୀ ଓ ଜ୍ଞାନମୂଳକ ଲେଖା ରଚନା କରିଥିଲେ। ତାଙ୍କ ସୃଜନରେ ସରଳ ଭାଷା, ସ୍ପଷ୍ଟ ଘଟଣାକ୍ରମ ଓ ଜୀବନଘନିଷ୍ଠ ଶିକ୍ଷାର ମିଶ୍ରଣ ମିଳେ। ଶିଶୁଙ୍କ ଜିଜ୍ଞାସାକୁ ଦମନ ନକରି ପ୍ରଶ୍ନ କରିବା ଓ ନିଜେ ଖୋଜିବାର ସୁଯୋଗ ଦେବା ଉଚିତ ବୋଲି ତାଙ୍କ ଶିକ୍ଷାଦୃଷ୍ଟିରୁ ବୁଝାଯାଏ। ଓଡ଼ିଆ ଭାଷାରେ ଜ୍ଞାନବିଜ୍ଞାନ ଓ ଜୀବନମୂଳକ ବିଷୟକୁ ସରଳ ଭାବେ ପ୍ରସ୍ତୁତ କରିବାରେ ଏପରି ଲେଖକମାନଙ୍କ ଭୂମିକା ଅତ୍ୟନ୍ତ ମୂଲ୍ୟବାନ। ତାଙ୍କ ଅବଦାନ ଆମକୁ ମନେ ପକାଏ ଯେ ମାତୃଭାଷାରେ ଶିକ୍ଷା ଶିଶୁଙ୍କ ବୁଝିବା ଓ ଅଭିବ୍ୟକ୍ତିକୁ ସହଜ କରେ। ଆଜିର ଛାତ୍ରଛାତ୍ରୀ ତାଙ୍କ କାର୍ଯ୍ୟରୁ ପଢ଼ାକୁ ଆନନ୍ଦମୟ କରିବା, ଜ୍ଞାନକୁ ସମାଜ ସହ ଯୋଡ଼ିବା ଓ ଭାଷାକୁ ସୃଜନର ମାଧ୍ୟମ କରିବାର ପ୍ରେରଣା ନେଇପାରିବେ।</p></div></article>
+</div>
+</div>
+</section>
+<section class="poetry-section" id="odia-poetry"><div class="wrap"><small class="kicker">ଓଡ଼ିଆ କବିତା · ପ୍ରକୃତି · ମାଟିର ମହକ</small><h2>କବିତାରେ ଆମ <em>ସୁନ୍ଦର ଓଡ଼ିଶା</em></h2><div class="poem-grid">
+<article><span>ରାଧାନାଥ ରାୟ · ଚିଲିକା</span><h3>ଚିଲିକାର ମନୋହର ଦୃଶ୍ୟ</h3><p lang="or">ନୀଳ ଜଳରାଶି, ଦ୍ୱୀପ ଓ ଆକାଶର ମିଳନ—‘ଚିଲିକା’ କାବ୍ୟରେ ରାଧାନାଥ ଓଡ଼ିଶାର ପ୍ରକୃତିକୁ ଏକ ଜୀବନ୍ତ ଚିତ୍ରରେ ପରିଣତ କରିଛନ୍ତି। ଏହି କାବ୍ୟର ପ୍ରକୃତିବର୍ଣ୍ଣନା ଆମକୁ ଚିଲିକାର ଜୈବବିବିଧତା ଓ ପରିବେଶକୁ ଭଲପାଇବାକୁ ଶିଖାଏ।</p><small>ପାଠ୍ୟ: ମୂଳ କାବ୍ୟର ଚୟନିତ ଅଂଶ ପାଠାଗାର ସଂସ୍କରଣରୁ ଯୋଡ଼ନ୍ତୁ।</small></article>
+<article><span>ଗଙ୍ଗାଧର ମେହେର · ତପସ୍ୱିନୀ</span><h3>ତ୍ୟାଗ ଓ ଆତ୍ମମର୍ଯ୍ୟାଦା</h3><p lang="or">‘ତପସ୍ୱିନୀ’ରେ ସୀତାଙ୍କ ଜୀବନ ମାଧ୍ୟମରେ ଧୈର୍ଯ୍ୟ, ଆତ୍ମସମ୍ମାନ, ପ୍ରକୃତି ସହ ଏକାତ୍ମତା ଓ ନାରୀମନର ଗଭୀରତାକୁ କବି ଉଦ୍ଭାସିତ କରିଛନ୍ତି। ଏହା ଓଡ଼ିଆ ମହାକାବ୍ୟ ପରମ୍ପରାର ଏକ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ ସୃଷ୍ଟି।</p><small>ପାଠ୍ୟ: ମୂଳ କାବ୍ୟରୁ ପ୍ରମାଣିତ ଉଦ୍ଧୃତି ଶିକ୍ଷକଙ୍କ ଅନୁମତିରେ ଯୋଡ଼ନ୍ତୁ।</small></article>
+<article><span>ଲକ୍ଷ୍ମୀକାନ୍ତ ମହାପାତ୍ର · ବନ୍ଦେ ଉତ୍କଳ ଜନନୀ</span><h3>ମାଟି ମାଆଙ୍କୁ ବନ୍ଦନା</h3><p lang="or">‘ବନ୍ଦେ ଉତ୍କଳ ଜନନୀ’ ଓଡ଼ିଶାର ଭୂମି, ନଦୀ, ପର୍ବତ, ସଂସ୍କୃତି ଓ ଜନମାନସ ପ୍ରତି ଗଭୀର ଶ୍ରଦ୍ଧାର ଗୀତ। ଏହା ଆମ ଭାଷାଗତ ଏକତା ଓ ଓଡ଼ିଆ ଅସ୍ମିତାର ଏକ ସ୍ଥାୟୀ ପ୍ରତୀକ।</p><small>ଓଡ଼ିଶାର ରାଜ୍ୟ ସଙ୍ଗୀତ · ସମ୍ପୂର୍ଣ୍ଣ ଗୀତ ଏଠାରେ ପୁନଃମୁଦ୍ରଣ କରାଯାଇନାହିଁ।</small></article>
+</div><p class="poetry-rights-note" lang="or">କବିତା ସମ୍ପର୍କିତ ଟିପ୍ପଣୀ: ଏଠାରେ କୃତିର ଭାବାର୍ଥ ଓ ସାହିତ୍ୟିକ ପରିଚୟ ଦିଆଯାଇଛି; ଅନୁମତି ବିନା ଦୀର୍ଘ ମୂଳ କବିତା ପୁନଃମୁଦ୍ରଣ କରାଯାଇନାହିଁ।</p></div></section>
 
-            </div>
-
-        </section>
-
-        <!-- UNIVERSITY HISTORY -->
-        <section class="history" id="history">
-
-            <img
-                src="/assets/convention-centre.jpg"
-                alt="Ravenshaw Convention Centre">
-
-            <div>
-
-                <small class="kicker">
-                    02 / A POEM IN TIME
-                </small>
-
-                <h2>
-                    More than years.<br>
-                    <em>A living story.</em>
-                </h2>
-
-                <p>
-                    When Odisha sought the light of learning,<br>
-                    a small beginning answered the call.<br>
-                    In eighteen sixty-eight, a seed was planted,<br>
+<section class="ancient-odisha" id="ancient-odisha"><div class="wrap"><small class="kicker">ପ୍ରାଚୀନ କଳିଙ୍ଗ · ସ୍ଥାପତ୍ୟ · ଆଧ୍ୟାତ୍ମିକ ଐତିହ୍ୟ</small><div class="ancient-heading"><h2>ଓଡ଼ିଶାର ପ୍ରାଚୀନ <em>ଇତିହାସିକ ସ୍ଥଳୀ</em></h2><p lang="or">ପଥରରେ ଖୋଦିତ କାହାଣୀ, ମନ୍ଦିରରେ ଗଢ଼ା କଳା ଓ ବିହାରରେ ସଞ୍ଚିତ ଜ୍ଞାନ—ଏହି ସ୍ଥଳୀଗୁଡ଼ିକ ଆମ ଅତୀତକୁ ଆଜି ସହ ଯୋଡ଼ି ରଖିଛି।</p></div><div class="ancient-grid">
+<article class="ancient-card"><img loading="lazy" alt="କୋଣାର୍କ ସୂର୍ଯ୍ୟ ମନ୍ଦିରର ଫଟୋ" src="https://commons.wikimedia.org/wiki/Special:FilePath/KONARK_SUN_TEMPLE_ORISSA.jpg"/><div><small>ପୁରୀ ଜିଲ୍ଲା · ୧୩ଶ ଶତାବ୍ଦୀ</small><span class="photo-credit">ଫଟୋ: <a href="https://commons.wikimedia.org/wiki/File:KONARK_SUN_TEMPLE_ORISSA.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a></span><h3>କୋଣାର୍କ ସୂର୍ଯ୍ୟ ମନ୍ଦିର</h3><p lang="or">ପୂର୍ବ ଗଙ୍ଗ ବଂଶର ରାଜା ନରସିଂହଦେବ ପ୍ରଥମଙ୍କ ଶାସନକାଳରେ ନିର୍ମିତ ଏହି ମନ୍ଦିର ସୂର୍ଯ୍ୟଦେବଙ୍କ ବିଶାଳ ରଥର ଆକୃତିରେ ଗଢ଼ା। ପଥରର ଚକ, ଘୋଡ଼ା, ମୂର୍ତ୍ତି ଓ ସୂକ୍ଷ୍ମ ଖୋଦନ କଳିଙ୍ଗ ସ୍ଥାପତ୍ୟର ଅପୂର୍ବ ନିଦର୍ଶନ। ଏହା UNESCO ବିଶ୍ୱ ଐତିହ୍ୟ ସ୍ଥଳୀ। ମନ୍ଦିରର ଚକଗୁଡ଼ିକ ସମୟ ମାପିବାର ସୂର୍ଯ୍ୟଘଡ଼ି ଭାବେ ମଧ୍ୟ ଅଧ୍ୟୟନଯୋଗ୍ୟ।</p><a href="https://odishatourism.gov.in/en/iconic-odisha" target="_blank" rel="noopener noreferrer">ଓଡ଼ିଶା ପର୍ଯ୍ୟଟନରେ ଅଧିକ ଜାଣନ୍ତୁ ↗</a></div></article>
+<article class="ancient-card"><img loading="lazy" alt="ଉଦୟଗିରି ଓ ଖଣ୍ଡଗିରିର ପ୍ରାଚୀନ ଗୁମ୍ଫା" src="https://commons.wikimedia.org/wiki/Special:FilePath/Udayagiri_and_Khandagiri_caves.jpg"/><div><small>ଭୁବନେଶ୍ୱର · ଖ୍ରୀ.ପୂ. ୨ୟ ଶତାବ୍ଦୀ</small><span class="photo-credit">ଫଟୋ: <a href="https://commons.wikimedia.org/wiki/File:Udayagiri_and_Khandagiri_caves.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a></span><h3>ଉଦୟଗିରି ଓ ଖଣ୍ଡଗିରି ଗୁମ୍ଫା</h3><p lang="or">ଏହି ଯୁଗଳ ପାହାଡ଼ର ଶିଳାକଟା ଗୁମ୍ଫାଗୁଡ଼ିକ ଜୈନ ସନ୍ନ୍ୟାସୀମାନଙ୍କ ଧ୍ୟାନ ଓ ବାସସ୍ଥାନ ଭାବେ ବ୍ୟବହୃତ ହୋଇଥିଲା। ରାଣୀଗୁମ୍ଫାର ଦୁଇତଳା ଗଠନ ଓ ଖୋଦିତ ଦୃଶ୍ୟଗୁଡ଼ିକ ପ୍ରାଚୀନ କଳାର ଉତ୍କୃଷ୍ଟ ଉଦାହରଣ। ହାତୀଗୁମ୍ଫା ଶିଳାଲେଖ କଳିଙ୍ଗର ରାଜା ଖାରବେଳଙ୍କ ବିଷୟରେ ମୂଲ୍ୟବାନ ଐତିହାସିକ ସୂଚନା ଦିଏ।</p><a href="https://odishatourism.gov.in/en/places/udayagiri-khandagiri-caves" target="_blank" rel="noopener noreferrer">ଐତିହ୍ୟ ବିବରଣୀ ↗</a></div></article>
+<article class="ancient-card"><img loading="lazy" alt="ପୁରୀ ଶ୍ରୀଜଗନ୍ନାଥ ମନ୍ଦିର" src="https://commons.wikimedia.org/wiki/Special:FilePath/Jagannath_Temple,_Puri,_Odisha.jpg"/><div><small>ପୁରୀ · ମଧ୍ୟଯୁଗୀୟ ମନ୍ଦିର</small><span class="photo-credit">ଫଟୋ: <a href="https://commons.wikimedia.org/wiki/File:Jagannath_Temple,_Puri,_Odisha.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a></span><h3>ଶ୍ରୀଜଗନ୍ନାଥ ମନ୍ଦିର</h3><p lang="or">ପୁରୀର ଶ୍ରୀଜଗନ୍ନାଥ ମନ୍ଦିର ଓଡ଼ିଶାର ଧାର୍ମିକ, ସାମାଜିକ ଓ ସାଂସ୍କୃତିକ ଜୀବନର ମୁଖ୍ୟ କେନ୍ଦ୍ର। ଜଗନ୍ନାଥ, ବଳଭଦ୍ର ଓ ସୁଭଦ୍ରାଙ୍କ ଆରାଧନା ସହ ରଥଯାତ୍ରା, ମହାପ୍ରସାଦ ଓ ମନ୍ଦିର ସେବା ପରମ୍ପରା ଏହାକୁ ବିଶିଷ୍ଟ କରିଛି। ମନ୍ଦିରର ଶିଖର, ନୀଳଚକ୍ର ଓ ପାରମ୍ପରିକ ଆଚାର ଓଡ଼ିଆ ଅସ୍ମିତାର ଅବିଚ୍ଛିନ୍ନ ଅଂଶ।</p><a href="https://apps.odishatourism.gov.in/temples-monuments" target="_blank" rel="noopener noreferrer">ଓଡ଼ିଶା ପର୍ଯ୍ୟଟନ ↗</a></div></article>
+<article class="ancient-card"><img loading="lazy" alt="ଧଉଳି ଶାନ୍ତିସ୍ତୂପ" src="https://commons.wikimedia.org/wiki/Special:FilePath/Dhauli_Shanti_Stupa%2C_Odisha.jpg"/><div><small>ଭୁବନେଶ୍ୱର ନିକଟ · ମୌର୍ଯ୍ୟ ଯୁଗ</small><span class="photo-credit">ଫଟୋ: <a href="https://commons.wikimedia.org/wiki/File:Dhauli_Shanti_Stupa,_Odisha.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a></span><h3>ଧଉଳି ଶାନ୍ତିସ୍ତୂପ</h3><p lang="or">ଧଉଳିକୁ କଳିଙ୍ଗ ଯୁଦ୍ଧ ଓ ସମ୍ରାଟ ଅଶୋକଙ୍କ ଜୀବନର ଐତିହାସିକ ପରିବର୍ତ୍ତନ ସହ ଯୋଡ଼ାଯାଏ। ଯୁଦ୍ଧର ଭୟାବହତା ପରେ ଅଶୋକଙ୍କ ଧମ୍ମ ଓ ଅହିଂସା ପ୍ରତି ଆକର୍ଷଣର କାହାଣୀ ଏହି ସ୍ଥାନକୁ ଶାନ୍ତିର ପ୍ରତୀକ କରିଛି। ଶାନ୍ତିସ୍ତୂପ ସହ ଅଶୋକଙ୍କ ଶିଳାଲେଖ ଇତିହାସ, ନୀତି ଓ ମାନବତାର ଶିକ୍ଷା ଦିଏ।</p><a href="https://apps.odishatourism.gov.in/buddhist-sites" target="_blank" rel="noopener noreferrer">ବୌଦ୍ଧ ଐତିହ୍ୟ ↗</a></div></article>
+<article class="ancient-card"><img loading="lazy" alt="ରତ୍ନଗିରି ବୌଦ୍ଧ ବିହାରର ଫଟୋ" src="https://commons.wikimedia.org/wiki/Special:FilePath/Ratnagiri_Buddhist_Monastery%2C_Jajpur._Odisha.jpg"/><div><small>ଯାଜପୁର · ବୌଦ୍ଧ ହୀରକ ତ୍ରିଭୁଜ</small><span class="photo-credit">ଫଟୋ: <a href="https://commons.wikimedia.org/wiki/File:Ratnagiri_Buddhist_Monastery,_Jajpur._Odisha.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a></span><h3>ରତ୍ନଗିରି ବୌଦ୍ଧ ବିହାର</h3><p lang="or">ରତ୍ନଗିରି ଓଡ଼ିଶାର ପ୍ରାଚୀନ ବୌଦ୍ଧ ଶିକ୍ଷା ଓ ସାଧନାର ଏକ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ କେନ୍ଦ୍ର। ଏଠାରେ ମିଳିଥିବା ବିହାର, ସ୍ତୂପ, ବୁଦ୍ଧମୂର୍ତ୍ତି ଓ ଅନ୍ୟାନ୍ୟ ପ୍ରତ୍ନବସ୍ତୁ ମହାୟାନ ଓ ବଜ୍ରଯାନ ପରମ୍ପରାର ପ୍ରସାରକୁ ଦର୍ଶାଏ। ଲଳିତଗିରି ଓ ଉଦୟଗିରି ସହ ଏହାକୁ ବୌଦ୍ଧ ହୀରକ ତ୍ରିଭୁଜର ଅଂଶ ଭାବେ ଗଣାଯାଏ।</p><a href="https://odishatourism.gov.in/en/iconic-odisha" target="_blank" rel="noopener noreferrer">ଐତିହ୍ୟ ପରିଚୟ ↗</a></div></article>
+<article class="ancient-card"><img loading="lazy" alt="ଲଳିତଗିରିର ପ୍ରାଚୀନ ବୌଦ୍ଧ ସ୍ତୂପ" src="https://commons.wikimedia.org/wiki/Special:FilePath/LALITGIRI%2C_ORISSA.jpg"/><div><small>ଯାଜପୁର · ପ୍ରାଚୀନ ବୌଦ୍ଧ କେନ୍ଦ୍ର</small><span class="photo-credit">ଫଟୋ: <a href="https://commons.wikimedia.org/wiki/File:LALITGIRI,_ORISSA.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a></span><h3>ଲଳିତଗିରି</h3><p lang="or">ଲଳିତଗିରି ଓଡ଼ିଶାର ବୌଦ୍ଧ ଐତିହ୍ୟର ଏକ ପ୍ରାଚୀନ ପ୍ରତ୍ନତାତ୍ତ୍ୱିକ ସ୍ଥଳୀ। ଏଠାରେ ଥିବା ସ୍ତୂପ, ମଠ ଓ ପ୍ରତ୍ନବସ୍ତୁଗୁଡ଼ିକ ଏହି ଅଞ୍ଚଳରେ ବୌଦ୍ଧ ଧର୍ମର ଦୀର୍ଘ ସମୃଦ୍ଧ ପରମ୍ପରାକୁ ସୂଚାଏ। ଏହା ରତ୍ନଗିରି ଓ ଉଦୟଗିରି ସହ ମିଶି ପ୍ରାଚୀନ ଓଡ଼ିଶାର ଆନ୍ତର୍ଜାତୀୟ ଜ୍ଞାନ-ସମ୍ପର୍କ, ଯାତ୍ରା ଓ ଧାର୍ମିକ ଆଦାନପ୍ରଦାନକୁ ବୁଝିବାରେ ସହାୟକ।</p><a href="https://apps.odishatourism.gov.in/buddhist-sites" target="_blank" rel="noopener noreferrer">ବୌଦ୍ଧ ସ୍ଥଳୀଗୁଡ଼ିକ ↗</a></div></article>
+</div><p class="image-credit-note" lang="or">ଫଟୋ ଉତ୍ସ: Wikimedia Commons ରେ ପ୍ରକାଶିତ ଫଟୋଗୁଡ଼ିକର ମୂଳ ଫାଇଲ୍ ପୃଷ୍ଠାକୁ ପ୍ରତ୍ୟେକ ଚିତ୍ର ତଳେ ଲିଙ୍କ୍ କରାଯାଇଛି। କୌଣସି ଚିତ୍ର ଉପଲବ୍ଧ ନହେଲେ ତାହାର ଉତ୍ସ ଲିଙ୍କ୍ ଯାଞ୍ଚ କରନ୍ତୁ।</p></div></section>
+<!-- UNIVERSITY HISTORY -->
+<section class="history" id="history">
+<img alt="Ravenshaw Convention Centre" src="/assets/convention-centre.jpg"/>
+<div>
+<small class="kicker">02 / A POEM IN TIME</small>
+<h2>
+                    More than years.<br/>
+<em>A living story.</em>
+</h2>
+<p>
+                    When Odisha sought the light of learning,<br/>
+                    a small beginning answered the call.<br/>
+                    In eighteen sixty-eight, a seed was planted,<br/>
                     with hope enough to outgrow every wall.
                 </p>
-
-                <p>
-                    From Cuttack's early classrooms onward,<br>
-                    through changing times, the red walls rose;<br>
-                    each generation brought a question,<br>
+<p>
+                    From Cuttack's early classrooms onward,<br/>
+                    through changing times, the red walls rose;<br/>
+                    each generation brought a question,<br/>
                     each open book, a path to compose.
                 </p>
-
-                <p>
-                    Through struggle, thought and public service,<br>
-                    its halls heard history find its voice.<br>
-                    Today the college stands a university—<br>
+<p>
+                    Through struggle, thought and public service,<br/>
+                    its halls heard history find its voice.<br/>
+                    Today the college stands a university—<br/>
                     where memory meets tomorrow's choice.
                 </p>
-
-                <div class="years">
-
-                    <b>1868<small>Beginnings</small></b>
-                    <b>1876<small>College named</small></b>
-                    <b>1919<small>Campus foundation</small></b>
-                    <b>2006<small>University status</small></b>
-
-                </div>
-
-                <small class="note">
-                    Milestones based on Ravenshaw University's
-                    published institutional history.
+<div class="years">
+<b>1868<small>Beginnings</small></b>
+<b>1876<small>College named</small></b>
+<b>1919<small>Campus foundation</small></b>
+<b>2006<small>University status</small></b>
+</div>
+<small class="note">
+                    Milestones based on Ravenshaw University's published institutional history.
                 </small>
-
-            </div>
-
-        </section>
-
-        <!-- CAMPUS GALLERY -->
-        <section class="wrap" id="campus">
-
-            <small class="kicker">
-                03 / THE CAMPUS
-            </small>
-
-            <div class="heading">
-
-                <h2>
-                    Spaces that <em>inspire.</em>
-                </h2>
-
-                <p>
-                    Architecture, community and campus life
-                    in the photographs supplied for this portal.
+</div>
+</section>
+<!-- CAMPUS GALLERY -->
+<section class="wrap" id="campus">
+<small class="kicker">03 / THE CAMPUS</small>
+<div class="heading">
+<h2>ରେଭେନ୍ସାର <em>ଐତିହ୍ୟ ଓ ସୌନ୍ଦର୍ଯ୍ୟ</em></h2>
+<p>
+                    କନିକା ପାଠାଗାରରୁ ଶିକ୍ଷା ଭବନ, ଉଦ୍ୟାନ ଓ ଛାତ୍ରଜୀବନ—କେବଳ ରେଭେନ୍ସା ବିଶ୍ୱବିଦ୍ୟାଳୟର ନିଜସ୍ୱ ଦୃଶ୍ୟ।
                 </p>
-
-            </div>
-
-            <div class="gallery">
-
-                <figure class="large">
-
-                    <img
-                        src="/assets/campus-community.jpg"
-                        alt="Campus community">
-
-                    <figcaption>
-                        One campus, many journeys
-                        <small>Community · Learning · Belonging</small>
-                    </figcaption>
-
-                </figure>
-
-                <figure>
-
-                    <img
-                        src="/assets/convention-centre.jpg"
-                        alt="Convention Centre">
-
-                    <figcaption>
-                        Seven Pillars of Wisdom
-                        <small>Ravenshaw Convention Centre</small>
-                    </figcaption>
-
-                </figure>
-
-                <figure>
-
-                    <img
-                        src="/assets/campus-main.jpg"
-                        alt="Ravenshaw University">
-
-                    <figcaption>
-                        The red-brick landmark
-                        <small>Ravenshaw University</small>
-                    </figcaption>
-
-                </figure>
-
-            </div>
-
-        </section>
-
-        <!-- PEOPLE AND LEGACY -->
-        <section class="wrap people" id="people">
-
-            <small class="kicker">
-                04 / PEOPLE & LEGACY
-            </small>
-
-            <div class="heading">
-
-                <h2>
-                    Ideas carried <em>forward.</em>
-                </h2>
-
-                <p>
-                    Faculty guidance and student initiative
-                    supporting this Ravenshaw Indian Knowledge
-                    System portal.
-                </p>
-
-            </div>
-
-            <h3 class="people-subhead">
-                Website development team
-            </h3>
-
-            <div class="developer-list">
-
-                <article class="developer-card">
-
-                    <img
-                        src="/assets/dr-alok-ranjan-tripathy.jpg"
-                        alt="Dr. Alok Ranjan Tripathy">
-
-                    <div>
-
-                        <small>FACULTY · ASSISTANT PROFESSOR</small>
-
-                        <h3>Dr. Alok Ranjan Tripathy</h3>
-
-                        <p>
-                            Assistant Professor · Ravenshaw University
-                        </p>
-
-                        <a href="mailto:aloktripathy.cs@ravenshawuniversity.ac.in">
-                            aloktripathy.cs@ravenshawuniversity.ac.in
-                        </a>
-
-                    </div>
-
-                </article>
-
-                <article class="developer-card">
-
-                    <img
-                        src="/assets/sashi-bhusan-nayak.jpg"
-                        alt="Sashi Bhusan Nayak">
-
-                    <div>
-
-                        <small>FACULTY · ASSISTANT PROFESSOR</small>
-
-                        <h3>Sashi Bhusan Nayak</h3>
-
-                        <p>
-                            Assistant Professor · Ravenshaw University
-                        </p>
-
-                        <a href="mailto:sashibhusannayak@ravenshawuniversity.ac.in">
-                            sashibhusannayak@ravenshawuniversity.ac.in
-                        </a>
-
-                    </div>
-
-                </article>
-
-                <article class="developer-card student-card">
-
-                    <img
-                        src="/assets/shraban-tarei-formal.jpg"
-                        alt="Shraban Tarei">
-
-                    <div>
-
-                        <small>STUDENT · FIRST SEMESTER</small>
-
-                        <h3>Shraban Tarei</h3>
-
-                        <p>
-                            Student Developer · Ravenshaw University
-                        </p>
-
-                        <b>THE NEXT CHAPTER</b>
-
-                    </div>
-
-                </article>
-
-            </div>
-
-            <h3 class="people-subhead history-title">
-                Great minds of Odisha
-            </h3>
-
-            <div class="cards">
-
-                <article>
-
-                    <i>MD</i>
-
-                    <div>
-
-                        <small>EDUCATION · SOCIAL REFORM</small>
-
-                        <h3>Madhusudan Das</h3>
-
-                        <p>
-                            Lawyer, public leader and central figure
-                            in the movement for a united Odisha.
-                        </p>
-
-                    </div>
-
-                </article>
-
-                <article>
-
-                    <i>GD</i>
-
-                    <div>
-
-                        <small>EDUCATION · PUBLIC SERVICE</small>
-
-                        <h3>Gopabandhu Das</h3>
-
-                        <p>
-                            Teacher, writer and freedom movement
-                            leader remembered as Utkalmani.
-                        </p>
-
-                    </div>
-
-                </article>
-
-                <article>
-
-                    <i>FS</i>
-
-                    <div>
-
-                        <small>LITERATURE · LANGUAGE</small>
-
-                        <h3>Fakir Mohan Senapati</h3>
-
-                        <p>
-                            Writer and pioneer of modern Odia literature.
-                        </p>
-
-                    </div>
-
-                </article>
-
-            </div>
-
-            <p class="note">
-                Faculty photographs, designations and contact details
-                are reproduced from the supplied faculty cards.
-                Please confirm consent and institutional approval
-                before public publication.
-            </p>
-
-        </section>
-
-    </main>
-
-    <!-- FOOTER -->
-    <footer>
-
-        RAVENSHAW UNIVERSITY · INDIAN KNOWLEDGE SYSTEM
-
-        <span>
-            Independent student portal concept ·
-            Not an official university service
-        </span>
-
-        <a
-            href="https://www.ravenshawuniversity.ac.in/"
-            target="_blank"
-            rel="noopener noreferrer">
+</div>
+<div class="gallery ravenshaw-gallery">
+<figure class="large"><img alt="Ravenshaw University main building and garden" src="/assets/campus-garden-wide.jpg"/><figcaption>ଲାଲ୍ ଇଟାର ଐତିହ୍ୟ <small>ମୁଖ୍ୟ ଭବନ · ରେଭେନ୍ସା ବିଶ୍ୱବିଦ୍ୟାଳୟ</small></figcaption></figure>
+<figure><img alt="Kanika Library" src="/assets/kanika-library.jpg"/><figcaption>କନିକା ପାଠାଗାର <small>୧୯୨୨ ଠାରୁ ଜ୍ଞାନର ଆଲୋକ</small></figcaption></figure>
+<figure><img alt="Ravenshaw academic block" src="/assets/academic-block.jpg"/><figcaption>ଶିକ୍ଷା ଭବନ <small>Academic Block</small></figcaption></figure>
+<figure><img alt="Ravenshaw Convention Centre with students" src="/assets/convention-centre-students.jpg"/><figcaption>ସାତ ସ୍ତମ୍ଭର ପ୍ରଜ୍ଞା <small>Convention Centre</small></figcaption></figure>
+<figure><img alt="Ravenshaw campus courtyard" src="/assets/campus-courtyard.jpg"/><figcaption>କ୍ୟାମ୍ପସ୍ ପରିସର <small>ଶିକ୍ଷା ଓ ସହଭାଗିତା</small></figcaption></figure>
+<figure><img alt="Aerial view of Ravenshaw campus" src="/assets/campus-aerial.jpg"/><figcaption>ଆକାଶରୁ ରେଭେନ୍ସା <small>କ୍ୟାମ୍ପସ୍ ଦୃଶ୍ୟ</small></figcaption></figure>
+</div>
+</section>
+<!-- IKS KNOWLEDGE CATEGORIES -->
+<section class="wrap iks-categories" id="categories">
+<small class="kicker">04 / EXPLORE THE KNOWLEDGE TRADITIONS</small>
+<div class="heading">
+<h2>Many disciplines. <em>One living heritage.</em></h2>
+<p>Explore India's diverse knowledge traditions through their ideas, practices, texts, communities and contemporary applications.</p>
+</div>
+<div class="iks-category-grid">
+<article class="iks-category-card"><img alt="Yoga and meditation practice" loading="lazy" src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&amp;fit=crop&amp;w=900&amp;q=85"/><div><small>WELLBEING · PRACTICE</small><h3>Yoga &amp; Ayurveda</h3><p>Explore yoga philosophy, mindful movement, traditional health knowledge and the history of Ayurveda through critical, evidence-aware study.</p></div></article>
+<article class="iks-category-card"><img alt="Mathematical geometry" loading="lazy" src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&amp;fit=crop&amp;w=900&amp;q=85"/><div><small>SCIENCE · MATHEMATICS</small><h3>Mathematics &amp; Astronomy</h3><p>Discover number systems, geometry, astronomical observations, calendars and the contributions of scholars across historical periods.</p></div></article>
+<article class="iks-category-card"><img alt="Mountain landscape and nature" loading="lazy" src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&amp;fit=crop&amp;w=900&amp;q=85"/><div><small>NATURE · SUSTAINABILITY</small><h3>Ecology &amp; Agriculture</h3><p>Study water traditions, biodiversity, seasonal knowledge, soil practices and community approaches to sustainable living.</p></div></article>
+<article class="iks-category-card"><img alt="Traditional Indian art" loading="lazy" src="https://images.unsplash.com/photo-1577083552431-6e5fd01aa342?auto=format&amp;fit=crop&amp;w=900&amp;q=85"/><div><small>ARTS · CRAFTS</small><h3>Art, Architecture &amp; Craft</h3><p>Understand temple architecture, sculpture, textiles, metallurgy, traditional technologies and the knowledge held by artisan communities.</p></div></article>
+<article class="iks-category-card"><img alt="Ancient manuscripts and books" loading="lazy" src="https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&amp;fit=crop&amp;w=900&amp;q=85"/><div><small>LANGUAGE · TEXTS</small><h3>Languages &amp; Literature</h3><p>Explore Sanskrit, Odia and other language traditions, manuscripts, oral literature, grammar, storytelling and knowledge transmission.</p></div></article>
+<article class="iks-category-card"><img alt="Musical instruments" loading="lazy" src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&amp;fit=crop&amp;w=900&amp;q=85"/><div><small>MUSIC · PERFORMANCE</small><h3>Music &amp; Performing Arts</h3><p>Learn about classical and regional music, dance, theatre, rhythm systems and the cultural contexts of performance traditions.</p></div></article>
+<article class="iks-category-card"><img alt="Historic stone architecture" loading="lazy" src="https://images.unsplash.com/photo-1504052434569-70ad5836ab65?auto=format&amp;fit=crop&amp;w=900&amp;q=85"/><div><small>PHILOSOPHY · ETHICS</small><h3>Philosophy &amp; Ethics</h3><p>Compare schools of thought, debates on knowledge, logic, ethics, social ideas and approaches to learning and inquiry.</p></div></article>
+<article class="iks-category-card"><img alt="Forest and traditional environment" loading="lazy" src="https://images.unsplash.com/photo-1518495973542-4542c06a5843?auto=format&amp;fit=crop&amp;w=900&amp;q=85"/><div><small>COMMUNITY · HERITAGE</small><h3>Indigenous &amp; Community Knowledge</h3><p>Document local practices, foodways, ecological knowledge and living heritage with respect, consent and community participation.</p></div></article>
+</div>
+<div class="iks-odisha-note"><h3>Odisha's contribution to IKS</h3><p>Odisha offers rich areas for study, including Jagannath culture, Odissi music and dance, palm-leaf manuscripts, temple architecture, Pattachitra, maritime history, traditional water management, handloom practices and diverse community knowledge. These can become student projects through interviews, archives, field visits and interdisciplinary research.</p></div>
+</section>
+</main>
+
+
+
+<!-- FOOTER -->
+<footer>
+<span>ରେଭେନ୍ସା ବିଶ୍ୱବିଦ୍ୟାଳୟ · ଭାରତୀୟ ଜ୍ଞାନ ପ୍ରଣାଳୀ</span>
+<span>Independent student portal concept · Not an official university service</span>
+<span class="developer-credit">
+    <span class="developer-credit-track">developed by · project head: shraban tarei · project adviser: sanjaya pradhan · design advisers: shubhrakanta mahanty &amp; prayag mishra · project mentor: sashibhushan nayak</span>
+</span>
+<a href="https://www.ravenshawuniversity.ac.in/" rel="noopener noreferrer" target="_blank">
             Official university website ↗
         </a>
-
-    </footer>
-
-    <!-- LOGIN AND REGISTRATION MODAL -->
-    <div class="shade" id="modal">
-
-        <section class="modal">
-
-            <button
-                class="x"
-                id="closeAuthBtn"
-                type="button"
-                aria-label="Close login">
+</footer>
+<!-- LOGIN AND REGISTRATION MODAL -->
+<div class="shade" id="modal">
+<section class="modal">
+<button aria-label="Close login" class="x" id="closeAuthBtn" type="button">
                 ×
             </button>
-
-            <img
-                src="/assets/ravenshaw-emblem.png"
-                alt="Ravenshaw emblem">
-
-            <small>RAVENSHAW UNIVERSITY</small>
-
-            <h2 class="motion">
-                Indian Knowledge System
-            </h2>
-
-            <p id="sub">
-                Choose Student or Admin to sign in
-            </p>
-
-            <div class="tabs">
-
-                <button
-                    id="loginTab"
-                    type="button">
-                    Sign in
-                </button>
-
-                <button
-                    id="regTab"
-                    type="button">
-                    Create account
-                </button>
-
-            </div>
-
-            <form id="authForm">
-
-                <label id="nameWrap">
+<img alt="Ravenshaw emblem" src="/assets/ravenshaw-emblem.png"/>
+<small>ରେଭେନ୍ସା ବିଶ୍ୱବିଦ୍ୟାଳୟ</small>
+<h2>Indian Knowledge System</h2>
+<p id="sub">Choose your access type to sign in</p>
+<div class="tabs">
+<button id="loginTab" type="button">Sign in</button>
+<button id="regTab" type="button">Create account</button>
+</div>
+<form id="authForm">
+<label id="nameWrap">
                     Full name
-
-                    <input
-                        name="fullName"
-                        autocomplete="name">
-                </label>
-
-                <label>
+                    <input autocomplete="name" name="fullName"/>
+</label>
+<label>
                     Phone number
-
-                    <input
-                        name="phone"
-                        type="tel"
-                        autocomplete="tel"
-                        required>
-                </label>
-
-                <label id="deptWrap">
+                    <input autocomplete="tel" name="phone" required="" type="tel"/>
+</label>
+<label id="deptWrap">
                     Department
-
                     <select name="department"></select>
-                </label>
-
-                <label id="rollWrap">
+</label>
+<label id="rollWrap">
                     Roll number
-
-                    <input
-                        name="rollNo"
-                        maxlength="8"
-                        placeholder="12ABC123"
-                        autocomplete="off">
-                </label>
-
-                <label>
+                    <input autocomplete="off" maxlength="8" name="rollNo" placeholder="12ABC123"/>
+</label>
+<label>
                     Password
-
-                    <input
-                        name="password"
-                        type="password"
-                        minlength="10"
-                        autocomplete="current-password"
-                        required>
-                </label>
-
-                <label id="roleWrap">
-                    Login as
-
-                    <select name="role" id="accountRole">
-                        <option value="student">Student</option>
-                        <option value="admin">Admin</option>
-                    </select>
-
-                </label>
-
-                <button
-                    class="gold submit"
-                    type="submit">
+                    <input autocomplete="current-password" minlength="10" name="password" required="" type="password"/>
+</label>
+<label id="roleWrap">
+                    Account type
+                    <select id="accountRole" name="role">
+<option value="student">Student</option>
+<option value="faculty">Faculty</option>
+<option value="guest">Guest</option>
+<option value="admin">Admin</option>
+</select>
+</label>
+<button class="gold submit" type="submit">
                     Continue ↗
                 </button>
-
-                <p id="msg" role="alert"></p>
-
-            </form>
-
-            <small class="foot">
-                Secure access · Ravenshaw IKS portal
-            </small>
-
-        </section>
-
-    </div>
-
-    <!-- DASHBOARD -->
-    <section id="dashboard" class="dash hide">
-
-        <aside>
-
-            <b>
-                RAVENSHAW UNIVERSITY<br>
-                <small>INDIAN KNOWLEDGE SYSTEM</small>
-            </b>
-
-            <div id="nav"></div>
-
-            <button
-                id="logoutBtn"
-                type="button"
-                data-action="logout">
-                Sign out ↪
-            </button>
-
-        </aside>
-
-        <div class="dashmain">
-
-            <header>
-
-                <small id="role"></small>
-
-                <h2 id="welcome"></h2>
-
-            </header>
-
-            <div id="content"></div>
-
-        </div>
-
-    </section>
-
-    <!-- LOAD APPLICATION JAVASCRIPT ONLY ONCE -->
-    <script src="/app.js" defer></script>
-
+<p id="msg" role="alert"></p>
+</form>
+<small class="foot">Secure access · Ravenshaw IKS portal</small>
+</section>
+</div>
+<!-- DASHBOARD -->
+<section class="dash hide" id="dashboard">
+<aside>
+<a class="dash-brand" data-action="page" data-page="Home" href="#dashboard">
+<img alt="Ravenshaw University emblem" src="/assets/ravenshaw-emblem.png"/>
+<span><b>ରେଭେନ୍ସା</b><small>ଭାରତୀୟ ଜ୍ଞାନ ପ୍ରଣାଳୀ</small></span>
+<span aria-label="Indian Knowledge Systems" class="iks-mark dash-iks-mark">IKS</span>
+</a>
+<div id="nav"></div>
+</aside>
+<div class="dashmain">
+<header class="dash-topbar">
+<div><small id="role"></small><h2 id="welcome"></h2></div>
+<div class="dash-search"><input aria-label="Search portal" id="topSearch" placeholder="Search people, posts, photos…" type="search"/><button data-action="topSearch" type="button">⌕</button><button aria-label="Messages" class="top-message" data-action="page" data-page="Messages" type="button">✉<span class="message-badge hide" id="messageBadge">0</span></button></div>
+</header>
+<div id="content"></div>
+</div>
+</section>
+<!-- LOAD APPLICATION JAVASCRIPT ONLY ONCE -->
+<script defer="" src="/app.js"></script>
 </body>
 </html>

@@ -1,0 +1,11 @@
+RAVENSHAW HOMEPAGE UPDATE
+
+- Homepage title and hero updated with Odia university name.
+- Campus slider expanded to 12 Ravenshaw University images supplied by the user.
+- Campus gallery now uses only Ravenshaw University photographs supplied with this request.
+- Added Odia heritage profiles and poetry context.
+- Existing authentication, dashboard, server, database and publishing logic left unchanged.
+
+Image attribution note: Gopabandhu Das portrait: Government of Odisha via Wikimedia Commons, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Gopabandhu_Das_portrait.jpg). Fakir Mohan Senapati portrait: Troubadorian via Wikimedia Commons, CC BY-SA 3.0 (https://commons.wikimedia.org/wiki/File:Fakir_Mohan_Senapati.jpg). Please retain attribution if redistributing these image references.
+
+Editorial note: the Madhusudan Das and later poet cards currently use illustrative artwork where a verified portrait file was not included in the supplied ZIP. Replace with appropriately licensed portrait images before public release. The first portrait fallback should also be checked in the live environment.
